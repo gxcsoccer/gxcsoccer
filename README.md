@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=120&text=%E5%AE%97%E7%BE%BD&fontSize=80&fontColor=00FF41&fontAlign=50&fontAlignY=50&animation=fadeIn" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=22&duration=3000&pause=1000&color=64FFDA&center=true&vCenter=true&random=false&width=500&lines=%24+whoami+%E2%80%94+%E5%AE%97%E7%BE%BD+%2F+gxcsoccer;Node.js+%7C+Golang+%7C+AI+Agent;open+source+since+2011" alt="Typing SVG" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=550&lines=%24+whoami;Node.js+%7C+Golang+%7C+AI+Agent;Egg.js+core+contributor+%7C+19k%E2%AD%90;Alibaba+%E2%86%92+ByteDance;open+source+since+2011" alt="Typing SVG" />
-
-<br/>
+<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gxcsoccer/gxcsoccer/output/github-contribution-grid-snake-dark.svg" />
@@ -14,45 +12,44 @@
 
 </div>
 
----
-
-```yaml
-# ~/.config/gxcsoccer.yml
-name: zōng yǔ
-location: Beijing
-company: ByteDance (prev. Alibaba / Ant Group)
-roles: [Node.js Infra, AI Agent Builder, OSS Maintainer]
+```
+$ cat ~/.profile
+─────────────────────────────────────────
+  name       zōng yǔ (宗羽)
+  company    ByteDance (prev. Alibaba)
+  roles      Node.js Infra · AI Agent Builder · OSS Maintainer
+─────────────────────────────────────────
 ```
 
----
-
-#### `> cat projects.md`
+```
+$ ls ~/projects/
+```
 
 <div align="center">
   <a href="https://github.com/eggjs/egg">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eggjs&repo=egg&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eggjs&repo=egg&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=64FFDA&icon_color=64FFDA" width="48%" />
   </a>
   <a href="https://github.com/mosn/mosn">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mosn&repo=mosn&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mosn&repo=mosn&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=64FFDA&icon_color=64FFDA" width="48%" />
   </a>
   <a href="https://github.com/gxcsoccer/AlphaArena">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gxcsoccer&repo=AlphaArena&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gxcsoccer&repo=AlphaArena&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=64FFDA&icon_color=64FFDA" width="48%" />
   </a>
   <a href="https://github.com/gxcsoccer/chibi">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gxcsoccer&repo=chibi&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gxcsoccer&repo=chibi&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=64FFDA&icon_color=64FFDA" width="48%" />
   </a>
 </div>
 
----
-
-#### `> git stats`
+```
+$ git stats
+```
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gxcsoccer&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a&icon_color=00FF41&ring_color=00FF41&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxcsoccer&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a&langs_count=8" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gxcsoccer&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=64FFDA&icon_color=64FFDA&ring_color=64FFDA&text_color=c9d1d9&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxcsoccer&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=64FFDA&text_color=c9d1d9&langs_count=8" />
 </div>
 
----
+<br/>
 
 <div align="center">
 <sub><code>$ uptime</code> — coding since 2011 · 604 followers · 149 repos</sub>
