@@ -1,13 +1,6 @@
-```
- ██████╗ ██╗  ██╗ ██████╗███████╗ ██████╗  ██████╗ ██████╗███████╗██████╗
-██╔════╝ ╚██╗██╔╝██╔════╝██╔════╝██╔═══██╗██╔════╝██╔════╝██╔════╝██╔══██╗
-██║  ███╗ ╚███╔╝ ██║     ███████╗██║   ██║██║     ██║     █████╗  ██████╔╝
-██║   ██║ ██╔██╗ ██║     ╚════██║██║   ██║██║     ██║     ██╔══╝  ██╔══██╗
-╚██████╔╝██╔╝ ██╗╚██████╗███████║╚██████╔╝╚██████╗╚██████╗███████╗██║  ██║
- ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝╚══════╝╚═╝  ╚═╝
-```
-
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=120&text=%E5%AE%97%E7%BE%BD&fontSize=80&fontColor=00FF41&fontAlign=50&fontAlignY=50&animation=fadeIn" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=550&lines=%24+whoami;Node.js+%7C+Golang+%7C+AI+Agent;Egg.js+core+contributor+%7C+19k%E2%AD%90;Alibaba+%E2%86%92+ByteDance;open+source+since+2011" alt="Typing SVG" />
 
