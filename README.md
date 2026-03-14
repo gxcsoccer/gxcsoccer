@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=20&duration=3000&pause=1000&color=c9d1d9&center=true&vCenter=true&random=false&width=460&lines=%E5%AE%97%E7%BE%BD+%2F+gxcsoccer;Node.js+%C2%B7+Golang+%C2%B7+AI+Agent" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=20&duration=3000&pause=1000&color=7aa2f7&center=true&vCenter=true&random=false&width=520&lines=%E5%AE%97%E7%BE%BD+%2F+gxcsoccer;building+infra+that+scales%2C+agents+that+think" alt="Typing SVG" />
 
 <br/>
 
@@ -12,6 +12,9 @@
 
 </div>
 
+```bash
+$ cat ~/.profile
+```
 ```
 ╭──────────────────────────────────────────────────────────╮
 │                                                          │
@@ -26,7 +29,11 @@
 ╰──────────────────────────────────────────────────────────╯
 ```
 
+```bash
+$ git log --oneline --graph
+```
+
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=gxcsoccer&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=c9d1d9&icon_color=58A6FF&ring_color=58A6FF&text_color=8b949e&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxcsoccer&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&title_color=c9d1d9&text_color=8b949e&langs_count=8" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=gxcsoccer&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=7aa2f7&icon_color=7aa2f7&ring_color=7aa2f7&text_color=a9b1d6&count_private=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxcsoccer&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=7aa2f7&text_color=a9b1d6&langs_count=8" />
 </div>
