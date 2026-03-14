@@ -1,21 +1,24 @@
+```
+ ██████╗ ██╗  ██╗ ██████╗███████╗ ██████╗  ██████╗ ██████╗███████╗██████╗
+██╔════╝ ╚██╗██╔╝██╔════╝██╔════╝██╔═══██╗██╔════╝██╔════╝██╔════╝██╔══██╗
+██║  ███╗ ╚███╔╝ ██║     ███████╗██║   ██║██║     ██║     █████╗  ██████╔╝
+██║   ██║ ██╔██╗ ██║     ╚════██║██║   ██║██║     ██║     ██╔══╝  ██╔══██╗
+╚██████╔╝██╔╝ ██╗╚██████╗███████║╚██████╔╝╚██████╗╚██████╗███████╗██║  ██║
+ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝╚══════╝╚═╝  ╚═╝
+```
+
 <div align="center">
 
-<!-- Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:00F7FF&height=220&section=header&text=zōng%20yǔ&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Node.js%20·%20Golang%20·%20AI%20Agent&descSize=18&descAlignY=55&animation=fadeIn" />
-
-<!-- Typing Animation -->
-<a href="https://github.com/gxcsoccer">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&random=false&width=550&lines=Egg.js+Core+Contributor+%7C+19k%E2%AD%90;Alibaba+%E2%86%92+ByteDance;Building+Autonomous+AI+Agents;Open+Source+Since+2011" alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=550&lines=%24+whoami;Node.js+%7C+Golang+%7C+AI+Agent;Egg.js+core+contributor+%7C+19k%E2%AD%90;Alibaba+%E2%86%92+ByteDance;open+source+since+2011" alt="Typing SVG" />
 
 <br/>
 
-[![Followers](https://img.shields.io/github/followers/gxcsoccer?style=for-the-badge&color=00F7FF&labelColor=0d1117&logo=github)](https://github.com/gxcsoccer?tab=followers)
+[![Followers](https://img.shields.io/github/followers/gxcsoccer?style=flat-square&color=00FF41&labelColor=0a0a0a&logo=github&logoColor=00FF41)](https://github.com/gxcsoccer?tab=followers)
 &nbsp;
-![Views](https://komarev.com/ghpvc/?username=gxcsoccer&color=00F7FF&style=for-the-badge&label=PROFILE+VIEWS)
+![Views](https://komarev.com/ghpvc/?username=gxcsoccer&color=00FF41&style=flat-square&label=visitors)
 
-<!-- Snake -->
 <br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gxcsoccer/gxcsoccer/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gxcsoccer/gxcsoccer/output/github-contribution-grid-snake.svg" />
@@ -24,97 +27,108 @@
 
 </div>
 
-<!-- About -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" width="28" /> &nbsp;About Me
+---
 
 ```yaml
+# ~/.config/gxcsoccer.yml
 name: zōng yǔ
 location: Beijing, China
 company: ByteDance (prev. Alibaba / Ant Group)
-roles:
-  - Node.js Infrastructure Engineer
-  - AI Agent Builder
-  - Open Source Maintainer
+roles: [Node.js Infra, AI Agent Builder, OSS Maintainer]
 focus:
   - Autonomous AI Agents & Multi-channel Messaging
   - Enterprise Node.js Frameworks & Tooling
   - Microservice & RPC Infrastructure
 ```
 
-<!-- Organizations -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Asia-Australia.png" width="28" /> &nbsp;Organizations
+---
 
-<p align="center">
-  <a href="https://github.com/eggjs"><img src="https://img.shields.io/badge/Egg.js-Core_Contributor-FF6A00?style=for-the-badge&labelColor=0d1117" /></a>
-  <a href="https://github.com/cnpm"><img src="https://img.shields.io/badge/cnpm-Maintainer-CB3837?style=for-the-badge&logo=npm&labelColor=0d1117" /></a>
-  <a href="https://github.com/node-modules"><img src="https://img.shields.io/badge/node__modules-Member-43853D?style=for-the-badge&logo=node.js&logoColor=white&labelColor=0d1117" /></a>
-  <br/>
-  <a href="https://github.com/sofastack"><img src="https://img.shields.io/badge/SOFAStack-Contributor-3178C6?style=for-the-badge&labelColor=0d1117" /></a>
-  <a href="https://github.com/dubbo"><img src="https://img.shields.io/badge/Apache_Dubbo-Contributor-D22128?style=for-the-badge&labelColor=0d1117" /></a>
-  <a href="https://github.com/alipay"><img src="https://img.shields.io/badge/Alipay-Member-1677FF?style=for-the-badge&labelColor=0d1117" /></a>
-  <a href="https://github.com/nacos-group"><img src="https://img.shields.io/badge/Nacos-Member-1E90FF?style=for-the-badge&labelColor=0d1117" /></a>
+#### `> orgs --list`
+
+<p>
+  <a href="https://github.com/eggjs"><img src="https://img.shields.io/badge/eggjs-core-00FF41?style=flat-square&labelColor=0a0a0a" /></a>
+  <a href="https://github.com/cnpm"><img src="https://img.shields.io/badge/cnpm-maintainer-00FF41?style=flat-square&labelColor=0a0a0a" /></a>
+  <a href="https://github.com/node-modules"><img src="https://img.shields.io/badge/node__modules-member-00FF41?style=flat-square&labelColor=0a0a0a" /></a>
+  <a href="https://github.com/sofastack"><img src="https://img.shields.io/badge/sofastack-contributor-00FF41?style=flat-square&labelColor=0a0a0a" /></a>
+  <a href="https://github.com/dubbo"><img src="https://img.shields.io/badge/dubbo-contributor-00FF41?style=flat-square&labelColor=0a0a0a" /></a>
+  <a href="https://github.com/alipay"><img src="https://img.shields.io/badge/alipay-member-00FF41?style=flat-square&labelColor=0a0a0a" /></a>
+  <a href="https://github.com/mosn"><img src="https://img.shields.io/badge/mosn-contributor-00FF41?style=flat-square&labelColor=0a0a0a" /></a>
 </p>
 
-<!-- Open Source -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" width="28" /> &nbsp;Open Source Highlights
+---
+
+#### `> cat oss-highlights.md`
 
 <div align="center">
   <a href="https://github.com/eggjs/egg">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eggjs&repo=egg&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eggjs&repo=egg&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a" width="48%" />
   </a>
   <a href="https://github.com/mosn/mosn">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mosn&repo=mosn&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mosn&repo=mosn&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a" width="48%" />
   </a>
   <a href="https://github.com/sofastack/sofa-rpc-node">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sofastack&repo=sofa-rpc-node&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sofastack&repo=sofa-rpc-node&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a" width="48%" />
   </a>
   <a href="https://github.com/ali-sdk/ali-ons">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ali-sdk&repo=ali-ons&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ali-sdk&repo=ali-ons&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a" width="48%" />
   </a>
 </div>
 
-<!-- Current Projects -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="28" /> &nbsp;Current Projects
+---
+
+#### `> ls ~/current-projects/`
 
 <div align="center">
   <a href="https://github.com/gxcsoccer/AlphaArena">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gxcsoccer&repo=AlphaArena&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gxcsoccer&repo=AlphaArena&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a" width="48%" />
   </a>
   <a href="https://github.com/gxcsoccer/chibi">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gxcsoccer&repo=chibi&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gxcsoccer&repo=chibi&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a" width="48%" />
   </a>
 </div>
 
-<!-- Tech Stack -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="28" /> &nbsp;Tech Stack
+---
+
+#### `> neofetch --stack`
+
+```
+   ╭──────────────────────────────────╮
+   │  Languages   TypeScript · Go     │
+   │              JavaScript · Python │
+   │              Rust · C/C++        │
+   │                                  │
+   │  Runtime     Node.js · Deno      │
+   │                                  │
+   │  Infra       Kubernetes · Docker │
+   │              GitHub Actions      │
+   │                                  │
+   │  AI          Claude · LLM Agents │
+   │                                  │
+   │  Frontend    React · Vite        │
+   ╰──────────────────────────────────╯
+```
+
+---
+
+#### `> git stats`
 
 <div align="center">
-
-| **Languages** | **Infrastructure** | **AI & Data** |
-|:---:|:---:|:---:|
-| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![Claude](https://img.shields.io/badge/Claude-d4a27f?style=flat-square&logo=anthropic&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | ![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
-
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gxcsoccer&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a&icon_color=00FF41&ring_color=00FF41&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxcsoccer&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a&langs_count=8" />
 </div>
 
-<!-- Stats -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28" /> &nbsp;Stats
-
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=gxcsoccer&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF&text_color=c9d1d9&count_private=true&ring_color=00F7FF" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gxcsoccer&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&text_color=c9d1d9&langs_count=8" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=gxcsoccer&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF&sideLabels=c9d1d9&dates=555555" width="53%" />
+  <img src="https://streak-stats.demolab.com?user=gxcsoccer&theme=dark&hide_border=true&background=0a0a0a&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=555555&stroke=222222" width="53%" />
 </div>
 
 <br/>
 
-<!-- Activity Graph -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gxcsoccer&bg_color=0d1117&color=00F7FF&line=00F7FF&point=ffffff&area=true&area_color=00F7FF&hide_border=true" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gxcsoccer&bg_color=0a0a0a&color=00FF41&line=00FF41&point=ffffff&area=true&area_color=00FF4120&hide_border=true&custom_title=contribution%20activity" width="95%" />
 </div>
 
-<!-- Footer -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:00F7FF&height=120&section=footer" />
+---
+
+<div align="center">
+<sub><code>$ uptime</code> — coding since 2011 | 604 followers | 149 public repos</sub>
+</div>
