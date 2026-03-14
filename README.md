@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=20&duration=3000&pause=1000&color=7aa2f7&center=true&vCenter=true&random=false&width=520&lines=%E5%AE%97%E7%BE%BD+%2F+gxcsoccer;building+infra+that+scales%2C+agents+that+think" alt="Typing SVG" />
-
-<br/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gxcsoccer/gxcsoccer/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gxcsoccer/gxcsoccer/output/github-contribution-grid-snake.svg" />
@@ -13,24 +9,32 @@
 </div>
 
 ```bash
-$ cat ~/.profile
-```
-```
-╭──────────────────────────────────────────────────────────╮
-│                                                          │
-│   宗羽 / gxcsoccer                                       │
-│                                                          │
-│   ByteDance (prev. Alibaba / Ant Group)                  │
-│   Node.js Infra · AI Agent Builder · OSS Maintainer      │
-│                                                          │
-│   eggjs/egg (19k★) · mosn/mosn (4.5k★)                  │
-│   sofastack · cnpm · dubbo                               │
-│                                                          │
-╰──────────────────────────────────────────────────────────╯
-```
+gxcsoccer@github ~ $ whoami
+宗羽 (zōng yǔ) — building infra that scales, agents that think
 
-```bash
-$ git log --oneline --graph
+gxcsoccer@github ~ $ cat ~/.profile
+  company    ByteDance (prev. Alibaba / Ant Group)
+  location   Beijing, China
+  roles      Node.js Infra · AI Agent Builder · OSS Maintainer
+  languages  TypeScript · Go · Python · Rust
+  stack      Egg.js · Koa · gRPC · Kubernetes · Docker
+  interests  LLM Agents · Distributed Systems · Developer Tooling
+  editor     Claude Code / Neovim
+  os         macOS (Apple Silicon)
+
+gxcsoccer@github ~ $ ls ~/oss/
+  eggjs/egg            19k★   Enterprise Node.js Framework
+  mosn/mosn            4.5k★  Cloud-Native Network Proxy
+  sofastack/sofa-rpc   614★   High-Performance RPC Framework
+  cnpm/cnpmjs.org      3.5k★  Private npm Registry
+
+gxcsoccer@github ~ $ git log --oneline --author="gxcsoccer" | head -3
+  ae30ad9  building AI agents for autonomous software dev
+  137ac7c  shipped AlphaArena — AI-native trading platform
+  c229c6e  contributing to Node.js infra since 2011
+
+gxcsoccer@github ~ $ uptime
+  up 15 years · 604 followers · 149 repos
 ```
 
 <div align="center">
