@@ -1,0 +1,21 @@
+{
+  "player": {
+    "hp": 50,
+    "max_hp": 50,
+    "atk": 8,
+    "def": 4,
+    "gold": 0,
+    "xp": 0,
+    "level": 1,
+    "position": "entrance",
+    "inventory": [],
+    "alive": true
+  },
+  "combat": null,
+  "rooms_cleared": [],
+  "log": [
+    {"action": "START", "user": "system", "message": "A hero enters the dungeon..."}
+  ],
+  "turn_count": 0,
+  "contributors": []
+}

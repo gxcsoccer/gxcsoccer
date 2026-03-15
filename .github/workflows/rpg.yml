@@ -1,0 +1,52 @@
+name: Terminal RPG
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  rpg:
+    if: startsWith(github.event.issue.title, 'RPG:')
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    concurrency:
+      group: rpg-game
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Process RPG Action
+        run: python game/rpg.py "${{ github.event.issue.title }}" "${{ github.event.issue.user.login }}"
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md game/state.json
+          git commit -m "⚔️ RPG: ${{ github.event.issue.title }} by @${{ github.event.issue.user.login }}"
+          git push
+
+      - name: Close Issue with Comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '⚔️ Action processed! Check the [profile](https://github.com/gxcsoccer) to see what happened!'
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });

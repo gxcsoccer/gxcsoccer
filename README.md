@@ -31,6 +31,45 @@ gxcsoccer@github ~ $ uptime
   ⏱ up 15 years · 604 followers · 149 repos
 ```
 
+<!-- RPG:START -->
+
+<div align="center">
+
+**⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
+
+</div>
+
+```
+gxcsoccer@github ~ $ ./dungeon_crawler
+
+  HP [██████████] 50/50   Lv.1
+  ATK 8  DEF 4  Gold 0  XP 0/20
+
+  📍 Dungeon Entrance
+
+      ___||___
+     |  ....  |
+     | /    \ |
+     ||      ||
+     ||  ^^  ||
+
+  A crumbling stone archway. Cold air flows from the depths below.
+
+  Exits: SOUTH
+
+  📜 Adventure Log:
+  > ⚡ A hero enters the dungeon...
+
+  📊 Turn #0
+```
+
+| | | |
+|:---:|:---:|:---:|
+|   |   |   |
+| | [⬇️ South](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ASOUTH&body=I%20chose%20%2A%2ASOUTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
+
+<!-- RPG:END -->
+
 <div align="center">
 
 <picture>

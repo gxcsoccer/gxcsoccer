@@ -1,0 +1,150 @@
+{
+  "rooms": {
+    "entrance": {
+      "name": "Dungeon Entrance",
+      "description": "A crumbling stone archway. Cold air flows from the depths below.",
+      "art": [
+        "    ___||___",
+        "   |  ....  |",
+        "   | /    \\ |",
+        "   ||      ||",
+        "   ||  ^^  ||"
+      ],
+      "exits": {"south": "hallway"},
+      "event_type": "none",
+      "event_data": null
+    },
+    "hallway": {
+      "name": "Dark Corridor",
+      "description": "A narrow corridor with flickering torches. The walls are damp.",
+      "art": [
+        "   |} .... {|",
+        "   |  ....  |",
+        "   |} .... {|",
+        "   |  ....  |",
+        "   |________|"
+      ],
+      "exits": {"north": "entrance", "west": "armory", "east": "library", "south": "great_hall"},
+      "event_type": "trap",
+      "event_data": {"damage": 8, "description": "Poison darts shoot from the walls!"}
+    },
+    "armory": {
+      "name": "Old Armory",
+      "description": "Rusty weapons line the walls. Something glints in the corner.",
+      "art": [
+        "   |  /| |\\  |",
+        "   | / | | \\ |",
+        "   |/  | |  \\|",
+        "   |  _|_|_  |",
+        "   |_|_____|_|"
+      ],
+      "exits": {"east": "hallway", "south": "great_hall"},
+      "event_type": "treasure",
+      "event_data": {"gold": 20, "item": {"name": "Iron Shield", "type": "def", "value": 2}}
+    },
+    "library": {
+      "name": "Dusty Library",
+      "description": "Towering bookshelves covered in cobwebs. A peaceful aura fills the room.",
+      "art": [
+        "   |]||||||[|",
+        "   |]||||||[|",
+        "   |]||||||[|",
+        "   |  ~~~~  |",
+        "   |___^^___|"
+      ],
+      "exits": {"west": "hallway", "south": "great_hall"},
+      "event_type": "rest",
+      "event_data": {"heal": 20}
+    },
+    "great_hall": {
+      "name": "The Great Hall",
+      "description": "A vast stone hall with crumbling pillars and ancient runes on the floor.",
+      "art": [
+        "   | ||  || |",
+        "   | ||  || |",
+        "   |  *~~*  |",
+        "   | ||  || |",
+        "   |_||__||_|"
+      ],
+      "exits": {"north": "hallway", "west": "crypt", "east": "garden", "south": "throne"},
+      "event_type": "monster",
+      "event_data": {"name": "Skeleton Knight", "hp": 35, "atk": 9, "def": 5, "xp": 25, "gold": 20}
+    },
+    "crypt": {
+      "name": "Ancient Crypt",
+      "description": "Stone coffins line the walls. An eerie glow emanates from within.",
+      "art": [
+        "   | _   _  |",
+        "   |[_] [_] |",
+        "   |[_] [_] |",
+        "   | ~~ ~~  |",
+        "   |________|"
+      ],
+      "exits": {"east": "great_hall", "south": "vault"},
+      "event_type": "monster",
+      "event_data": {"name": "Wraith", "hp": 25, "atk": 12, "def": 3, "xp": 20, "gold": 15}
+    },
+    "garden": {
+      "name": "Underground Garden",
+      "description": "Bioluminescent plants glow softly. A crystal fountain bubbles gently.",
+      "art": [
+        "   | *  * * |",
+        "   |* \\|/ * |",
+        "   | *.|.   |",
+        "   |  /|\\ * |",
+        "   |_*___*__|"
+      ],
+      "exits": {"west": "great_hall", "south": "fountain"},
+      "event_type": "rest",
+      "event_data": {"heal": 30}
+    },
+    "vault": {
+      "name": "Hidden Vault",
+      "description": "Gold coins are scattered everywhere. A massive chest sits in the center.",
+      "art": [
+        "   | $ $ $  |",
+        "   |  ___   |",
+        "   | |$$$|  |",
+        "   | |___|  |",
+        "   |_$___$__|"
+      ],
+      "exits": {"north": "crypt"},
+      "event_type": "treasure",
+      "event_data": {"gold": 50, "item": {"name": "Dragon Fang", "type": "atk", "value": 4}}
+    },
+    "fountain": {
+      "name": "Crystal Fountain",
+      "description": "A magical fountain with healing waters. A merchant sits nearby.",
+      "art": [
+        "   |  (~~)  |",
+        "   | (~~~~) |",
+        "   |  |  |  |",
+        "   | /|  |\\ |",
+        "   |/_|__|_\\|"
+      ],
+      "exits": {"north": "garden", "west": "throne"},
+      "event_type": "shop",
+      "event_data": {
+        "items": [
+          {"name": "Health Potion", "cost": 15, "effect": "hp", "value": 25},
+          {"name": "Whetstone", "cost": 25, "effect": "atk", "value": 2},
+          {"name": "Chainmail", "cost": 30, "effect": "def", "value": 3}
+        ]
+      }
+    },
+    "throne": {
+      "name": "Dragon King's Throne",
+      "description": "A massive throne room. The Dragon King awaits, flames dancing in his eyes.",
+      "art": [
+        "   | /\\_/\\ |",
+        "   |( o.o ) |",
+        "   | > ~ <  |",
+        "   |/|   |\\|",
+        "   |_|___|_|"
+      ],
+      "exits": {"north": "great_hall", "east": "fountain"},
+      "event_type": "monster",
+      "event_data": {"name": "Dragon King", "hp": 60, "atk": 14, "def": 8, "xp": 100, "gold": 100}
+    }
+  }
+}
