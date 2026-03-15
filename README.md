@@ -1,41 +1,10 @@
-```bash
-gxcsoccer@github ~ $ whoami
-🧑‍💻 宗羽 (zōng yǔ) — building infra that scales, agents that think
-
-gxcsoccer@github ~ $ cat ~/.profile
-  🏢 company    ByteDance (prev. Alibaba / Ant Group)
-  📍 location   Beijing, China
-  🎯 roles      Node.js Infra · AI Agent Builder · OSS Maintainer
-  🌐 languages  TypeScript · Go · Python · Rust
-  🛠  stack      Egg.js · Koa · gRPC · Kubernetes · Docker
-  🤖 interests  LLM Agents · Distributed Systems · Developer Tooling
-  ⌨️  editor     Claude Code / Neovim
-  🍎 os         macOS (Apple Silicon)
-
-gxcsoccer@github ~ $ ls ~/oss/
-  🥚 eggjs/egg            19k★   Enterprise Node.js Framework
-  🌐 mosn/mosn            4.5k★  Cloud-Native Network Proxy
-  📦 cnpm/cnpmjs.org      3.5k★  Private npm Registry
-  🔗 sofastack/sofa-rpc   614★   High-Performance RPC Framework
-
-gxcsoccer@github ~ $ ls ~/projects/
-  📈 AlphaArena           AI-native simulated trading platform
-  🤖 chibi                Another Code Agent
-
-gxcsoccer@github ~ $ git log --oneline --author="gxcsoccer" | head -3
-  ae30ad9  🔨 building AI agents for autonomous software dev
-  137ac7c  🚀 shipped AlphaArena — AI-native trading platform
-  c229c6e  🌱 contributing to Node.js infra since 2011
-
-gxcsoccer@github ~ $ uptime
-  ⏱ up 15 years · 604 followers · 149 repos
-```
-
 <!-- RPG:START -->
 
 <div align="center">
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
+
+*A community-driven RPG adventure — 1 heroes, 3 turns played*
 
 </div>
 
@@ -65,15 +34,87 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   > ⚡ Poison darts shoot from the walls!
   > @gxcsoccer Moved to Dusty Library
   > @gxcsoccer Rested and healed 20 HP
-
-  🏆 Heroes: @gxcsoccer
-  📊 Turn #3
 ```
 
 | | | |
 |:---:|:---:|:---:|
 | [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) | [💚 Rest](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AREST&body=I%20chose%20%2A%2AREST%2A%2A%21%20Let%20the%20adventure%20continue%21) |   |
 | | [⬇️ South](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ASOUTH&body=I%20chose%20%2A%2ASOUTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
+
+---
+
+<details>
+<summary><b>📜 Adventure Log</b></summary>
+
+### 🏆 Heroes
+
+<table>
+  <thead>
+    <tr><th>Hero</th><th>Moves</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>3</td></tr>
+  </tbody>
+</table>
+
+### 🗺️ Move History
+
+| Turn | Time | Hero | Event | Issue |
+| :---: | :---: | :--- | :--- | :---: |
+| **3** | 2026-03-15 07:31 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 💚 Rested and healed 20 HP |  |
+| **2** | 2026-03-15 07:31 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ➡️ Moved to Dusty Library |  |
+| **1** | 2026-03-15 07:30 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚡ Poison darts shoot from the walls! |  |
+| **1** | 2026-03-15 07:30 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬇️ Moved to Dark Corridor |  |
+
+</details>
+
+<details>
+<summary><b>🎮 How to Play</b></summary>
+
+### Rules
+
+This is a **community-driven dungeon crawler RPG**! Everyone controls the same hero together.
+
+**How it works:**
+1. Click an action button above (e.g. **South**, **Attack**)
+2. This creates a GitHub Issue automatically
+3. A GitHub Action processes your move and updates this README
+4. The issue is closed with a confirmation comment
+
+**Game mechanics:**
+- ⬆️⬇️⬅️➡️ **Move** through the dungeon rooms
+- ⚔️ **Attack** enemies to deal damage (ATK - enemy DEF + random 0~3)
+- 🛡️ **Defend** to take half damage and counter-attack
+- 🏃 **Run** from combat (60% success rate)
+- 💚 **Rest** at peaceful locations to heal HP
+- 🛒 **Shop** to buy potions, weapons, and armor
+
+**Leveling up:**
+- Defeat enemies to earn XP and Gold
+- Level up at XP thresholds: 20, 50, 100, 180, 300
+- Each level grants +5 HP, +2 ATK, +1 DEF and full heal
+
+**Death & Respawn:**
+- If HP reaches 0, the hero falls
+- Click any button to respawn at the entrance with base stats
+- Your contribution to the hero list is preserved!
+
+**Dungeon Map (📍 10 rooms):**
+```
+         [Entrance]
+             |
+         [Hallway]        <- trap!
+        /         \
+   [Armory]    [Library]   <- treasure / rest
+        \         /
+       [Great Hall]        <- Skeleton Knight
+      /     |      \
+  [Crypt] [Throne] [Garden]
+    |    Dragon!      |
+  [Vault]         [Fountain] <- shop
+```
+
+</details>
 
 <!-- RPG:END -->
 

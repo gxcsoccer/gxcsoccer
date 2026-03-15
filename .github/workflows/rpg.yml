@@ -24,7 +24,7 @@ jobs:
           python-version: '3.12'
 
       - name: Process RPG Action
-        run: python game/rpg.py "${{ github.event.issue.title }}" "${{ github.event.issue.user.login }}"
+        run: python game/rpg.py "${{ github.event.issue.title }}" "${{ github.event.issue.user.login }}" "${{ github.event.issue.number }}"
 
       - name: Commit and Push
         run: |

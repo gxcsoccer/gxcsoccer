@@ -42,8 +42,38 @@
       "message": "Rested and healed 20 HP"
     }
   ],
+  "history": [
+    {
+      "turn": 1,
+      "time": "2026-03-15 07:30 UTC",
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Dark Corridor"
+    },
+    {
+      "turn": 1,
+      "time": "2026-03-15 07:30 UTC",
+      "action": "TRAP",
+      "user": "gxcsoccer",
+      "message": "Poison darts shoot from the walls!"
+    },
+    {
+      "turn": 2,
+      "time": "2026-03-15 07:31 UTC",
+      "action": "EAST",
+      "user": "gxcsoccer",
+      "message": "Moved to Dusty Library"
+    },
+    {
+      "turn": 3,
+      "time": "2026-03-15 07:31 UTC",
+      "action": "REST",
+      "user": "gxcsoccer",
+      "message": "Rested and healed 20 HP"
+    }
+  ],
   "turn_count": 3,
-  "contributors": [
-    "gxcsoccer"
-  ]
+  "contributors": {
+    "gxcsoccer": 3
+  }
 }
