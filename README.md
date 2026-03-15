@@ -45,33 +45,33 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   HP [████████░░] 42/50   Lv.1
   ATK 8  DEF 4  Gold 0  XP 0/20
 
-  📍 Dark Corridor
+  📍 Dusty Library
 
-     |} .... {|
-     |  ....  |
-     |} .... {|
-     |  ....  |
-     |________|
+     |]||||||[|
+     |]||||||[|
+     |]||||||[|
+     |  ~~~~  |
+     |___^^___|
 
-  A narrow corridor with flickering torches. The walls are damp.
+  Towering bookshelves covered in cobwebs. A peaceful aura fills the room.
 
-  ✅ This area has been cleared.
+  💚 A peaceful place to rest. (+20 HP)
 
-  Exits: NORTH | WEST | EAST | SOUTH
+  Exits: WEST | SOUTH
 
   📜 Adventure Log:
   > ⚡ A hero enters the dungeon...
   > @gxcsoccer Moved to Dark Corridor
   > ⚡ Poison darts shoot from the walls!
+  > @gxcsoccer Moved to Dusty Library
 
   🏆 Heroes: @gxcsoccer
-  📊 Turn #1
+  📊 Turn #2
 ```
 
 | | | |
 |:---:|:---:|:---:|
-| | [⬆️ North](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ANORTH&body=I%20chose%20%2A%2ANORTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
-| [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) |   | [➡️ East](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AEAST&body=I%20chose%20%2A%2AEAST%2A%2A%21%20Let%20the%20adventure%20continue%21) |
+| [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) | [💚 Rest](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AREST&body=I%20chose%20%2A%2AREST%2A%2A%21%20Let%20the%20adventure%20continue%21) |   |
 | | [⬇️ South](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ASOUTH&body=I%20chose%20%2A%2ASOUTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
 
 <!-- RPG:END -->
