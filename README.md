@@ -42,30 +42,36 @@ gxcsoccer@github ~ $ uptime
 ```
 gxcsoccer@github ~ $ ./dungeon_crawler
 
-  HP [██████████] 50/50   Lv.1
+  HP [████████░░] 42/50   Lv.1
   ATK 8  DEF 4  Gold 0  XP 0/20
 
-  📍 Dungeon Entrance
+  📍 Dark Corridor
 
-      ___||___
+     |} .... {|
      |  ....  |
-     | /    \ |
-     ||      ||
-     ||  ^^  ||
+     |} .... {|
+     |  ....  |
+     |________|
 
-  A crumbling stone archway. Cold air flows from the depths below.
+  A narrow corridor with flickering torches. The walls are damp.
 
-  Exits: SOUTH
+  ✅ This area has been cleared.
+
+  Exits: NORTH | WEST | EAST | SOUTH
 
   📜 Adventure Log:
   > ⚡ A hero enters the dungeon...
+  > @gxcsoccer Moved to Dark Corridor
+  > ⚡ Poison darts shoot from the walls!
 
-  📊 Turn #0
+  🏆 Heroes: @gxcsoccer
+  📊 Turn #1
 ```
 
 | | | |
 |:---:|:---:|:---:|
-|   |   |   |
+| | [⬆️ North](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ANORTH&body=I%20chose%20%2A%2ANORTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
+| [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) |   | [➡️ East](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AEAST&body=I%20chose%20%2A%2AEAST%2A%2A%21%20Let%20the%20adventure%20continue%21) |
 | | [⬇️ South](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ASOUTH&body=I%20chose%20%2A%2ASOUTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
 
 <!-- RPG:END -->

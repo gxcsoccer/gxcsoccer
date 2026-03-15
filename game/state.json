@@ -1,21 +1,39 @@
 {
   "player": {
-    "hp": 50,
+    "hp": 42,
     "max_hp": 50,
     "atk": 8,
     "def": 4,
     "gold": 0,
     "xp": 0,
     "level": 1,
-    "position": "entrance",
+    "position": "hallway",
     "inventory": [],
     "alive": true
   },
   "combat": null,
-  "rooms_cleared": [],
-  "log": [
-    {"action": "START", "user": "system", "message": "A hero enters the dungeon..."}
+  "rooms_cleared": [
+    "hallway"
   ],
-  "turn_count": 0,
-  "contributors": []
+  "log": [
+    {
+      "action": "START",
+      "user": "system",
+      "message": "A hero enters the dungeon..."
+    },
+    {
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Dark Corridor"
+    },
+    {
+      "action": "TRAP",
+      "user": "system",
+      "message": "Poison darts shoot from the walls!"
+    }
+  ],
+  "turn_count": 1,
+  "contributors": [
+    "gxcsoccer"
+  ]
 }
