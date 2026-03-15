@@ -42,7 +42,7 @@ gxcsoccer@github ~ $ uptime
 ```
 gxcsoccer@github ~ $ ./dungeon_crawler
 
-  HP [████████░░] 42/50   Lv.1
+  HP [██████████] 50/50   Lv.1
   ATK 8  DEF 4  Gold 0  XP 0/20
 
   📍 Dusty Library
@@ -64,9 +64,10 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   > @gxcsoccer Moved to Dark Corridor
   > ⚡ Poison darts shoot from the walls!
   > @gxcsoccer Moved to Dusty Library
+  > @gxcsoccer Rested and healed 20 HP
 
   🏆 Heroes: @gxcsoccer
-  📊 Turn #2
+  📊 Turn #3
 ```
 
 | | | |

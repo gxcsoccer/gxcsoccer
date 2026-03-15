@@ -1,6 +1,6 @@
 {
   "player": {
-    "hp": 42,
+    "hp": 50,
     "max_hp": 50,
     "atk": 8,
     "def": 4,
@@ -35,9 +35,14 @@
       "action": "EAST",
       "user": "gxcsoccer",
       "message": "Moved to Dusty Library"
+    },
+    {
+      "action": "REST",
+      "user": "gxcsoccer",
+      "message": "Rested and healed 20 HP"
     }
   ],
-  "turn_count": 2,
+  "turn_count": 3,
   "contributors": [
     "gxcsoccer"
   ]
