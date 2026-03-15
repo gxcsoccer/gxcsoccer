@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Pac-Man Animation
 
 on:
   schedule:
@@ -15,15 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Snake
-        uses: Platane/snk/svg-only@v3
+      - name: Generate Pac-Man
+        uses: abozanona/pacman-contribution-graph@v1
         with:
           github_user_name: gxcsoccer
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+            dist/github-contribution-grid-pacman.svg
+            dist/github-contribution-grid-pacman-dark.svg?palette=github-dark
 
       - name: Push to output branch
         run: |
@@ -32,6 +30,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Update snake animation"
+          git commit -m "Update Pac-Man animation"
           git branch -M output
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" output
