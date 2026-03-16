@@ -123,3 +123,5 @@ This is a **community-driven dungeon crawler RPG**! Everyone controls the same h
 <img alt="pacman" src="https://raw.githubusercontent.com/gxcsoccer/gxcsoccer/output/pacman-contribution-graph.svg" width="100%" />
 
 </div>
+
+<!-- 🏆 Achievement Unlocked: YOLO -->
