@@ -7,25 +7,23 @@
     "gold": 0,
     "xp": 0,
     "level": 1,
-    "position": "library",
+    "position": "great_hall",
     "inventory": [],
     "alive": true
   },
-  "combat": null,
+  "combat": {
+    "enemy_name": "Skeleton Knight",
+    "enemy_hp": 35,
+    "enemy_max_hp": 35,
+    "enemy_atk": 9,
+    "enemy_def": 5,
+    "xp_reward": 25,
+    "gold_reward": 20
+  },
   "rooms_cleared": [
     "hallway"
   ],
   "log": [
-    {
-      "action": "START",
-      "user": "system",
-      "message": "A hero enters the dungeon..."
-    },
-    {
-      "action": "SOUTH",
-      "user": "gxcsoccer",
-      "message": "Moved to Dark Corridor"
-    },
     {
       "action": "TRAP",
       "user": "system",
@@ -40,6 +38,16 @@
       "action": "REST",
       "user": "gxcsoccer",
       "message": "Rested and healed 20 HP"
+    },
+    {
+      "action": "SOUTH",
+      "user": "GaryXJT",
+      "message": "Moved to The Great Hall"
+    },
+    {
+      "action": "ENCOUNTER",
+      "user": "system",
+      "message": "Skeleton Knight appears!"
     }
   ],
   "history": [
@@ -70,10 +78,27 @@
       "action": "REST",
       "user": "gxcsoccer",
       "message": "Rested and healed 20 HP"
+    },
+    {
+      "turn": 4,
+      "time": "2026-03-26 04:08 UTC",
+      "action": "SOUTH",
+      "user": "GaryXJT",
+      "message": "Moved to The Great Hall",
+      "issue": "5"
+    },
+    {
+      "turn": 4,
+      "time": "2026-03-26 04:08 UTC",
+      "action": "ENCOUNTER",
+      "user": "GaryXJT",
+      "message": "Skeleton Knight appears!",
+      "issue": "5"
     }
   ],
-  "turn_count": 3,
+  "turn_count": 4,
   "contributors": {
-    "gxcsoccer": 3
+    "gxcsoccer": 3,
+    "GaryXJT": 1
   }
 }

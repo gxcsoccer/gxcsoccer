@@ -4,7 +4,7 @@
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
 
-*A community-driven RPG adventure — 1 heroes, 3 turns played*
+*A community-driven RPG adventure — 2 heroes, 4 turns played*
 
 </div>
 
@@ -14,32 +14,32 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   HP [██████████] 50/50   Lv.1
   ATK 8  DEF 4  Gold 0  XP 0/20
 
-  📍 Dusty Library
+  📍 The Great Hall
 
-     |]||||||[|
-     |]||||||[|
-     |]||||||[|
-     |  ~~~~  |
-     |___^^___|
+     | ||  || |
+     | ||  || |
+     |  *~~*  |
+     | ||  || |
+     |_||__||_|
 
-  Towering bookshelves covered in cobwebs. A peaceful aura fills the room.
+  A vast stone hall with crumbling pillars and ancient runes on the floor.
 
-  💚 A peaceful place to rest. (+20 HP)
+  ⚔️ Skeleton Knight appears!
+  Enemy HP [██████████] 35/35
 
-  Exits: WEST | SOUTH
+  Exits: NORTH | WEST | EAST | SOUTH
 
   📜 Adventure Log:
-  > ⚡ A hero enters the dungeon...
-  > @gxcsoccer Moved to Dark Corridor
   > ⚡ Poison darts shoot from the walls!
   > @gxcsoccer Moved to Dusty Library
   > @gxcsoccer Rested and healed 20 HP
+  > @GaryXJT Moved to The Great Hall
+  > ⚡ Skeleton Knight appears!
 ```
 
 | | | |
 |:---:|:---:|:---:|
-| [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) | [💚 Rest](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AREST&body=I%20chose%20%2A%2AREST%2A%2A%21%20Let%20the%20adventure%20continue%21) |   |
-| | [⬇️ South](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ASOUTH&body=I%20chose%20%2A%2ASOUTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
+| [⚔️ Attack](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AATTACK&body=I%20chose%20%2A%2AATTACK%2A%2A%21%20Let%20the%20adventure%20continue%21) | [🛡️ Defend](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ADEFEND&body=I%20chose%20%2A%2ADEFEND%2A%2A%21%20Let%20the%20adventure%20continue%21) | [🏃 Run](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ARUN&body=I%20chose%20%2A%2ARUN%2A%2A%21%20Let%20the%20adventure%20continue%21) |
 
 ---
 
@@ -54,6 +54,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   </thead>
   <tbody>
     <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>3</td></tr>
+    <tr><td><img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)**</td><td align='center'>1</td></tr>
   </tbody>
 </table>
 
@@ -61,6 +62,8 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
 | Turn | Time | Hero | Event | Issue |
 | :---: | :---: | :--- | :--- | :---: |
+| **4** | 2026-03-26 04:08 UTC | <img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)** | 🐉 Skeleton Knight appears! | [#5](https://github.com/gxcsoccer/gxcsoccer/issues/5) |
+| **4** | 2026-03-26 04:08 UTC | <img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)** | ⬇️ Moved to The Great Hall | [#5](https://github.com/gxcsoccer/gxcsoccer/issues/5) |
 | **3** | 2026-03-15 07:31 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 💚 Rested and healed 20 HP |  |
 | **2** | 2026-03-15 07:31 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ➡️ Moved to Dusty Library |  |
 | **1** | 2026-03-15 07:30 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚡ Poison darts shoot from the walls! |  |
