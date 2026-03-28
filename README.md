@@ -4,7 +4,7 @@
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
 
-*A community-driven RPG adventure — 2 heroes, 18 turns played*
+*A community-driven RPG adventure — 2 heroes, 19 turns played*
 
 </div>
 
@@ -14,30 +14,33 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   HP [████████░░] 38/50   Lv.1
   ATK 8  DEF 4  Gold 20  XP 25/50
 
-  📍 Dragon King's Throne
+  📍 The Great Hall
 
-     | /\_/\ |
-     |( o.o ) |
-     | > ~ <  |
-     |/|   |\|
-     |_|___|_|
+     | ||  || |
+     | ||  || |
+     |  *~~*  |
+     | ||  || |
+     |_||__||_|
 
-  A massive throne room. The Dragon King awaits, flames dancing in his eyes.
+  A vast stone hall with crumbling pillars and ancient runes on the floor.
 
-  Exits: NORTH | EAST
+  ✅ This area has been cleared.
+
+  Exits: NORTH | WEST | EAST | SOUTH
 
   📜 Adventure Log:
-  > @gxcsoccer Moved to Crystal Fountain
   > @gxcsoccer Moved to Dragon King's Throne
   > ⚡ Dragon King appears!
   > @gxcsoccer Failed to escape! Took 12 dmg!
   > @gxcsoccer Escaped successfully!
+  > @gxcsoccer Moved to The Great Hall
 ```
 
 | | | |
 |:---:|:---:|:---:|
 | | [⬆️ North](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ANORTH&body=I%20chose%20%2A%2ANORTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
-|   |   | [➡️ East](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AEAST&body=I%20chose%20%2A%2AEAST%2A%2A%21%20Let%20the%20adventure%20continue%21) |
+| [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) |   | [➡️ East](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AEAST&body=I%20chose%20%2A%2AEAST%2A%2A%21%20Let%20the%20adventure%20continue%21) |
+| | [⬇️ South](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ASOUTH&body=I%20chose%20%2A%2ASOUTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
 
 ---
 
@@ -51,7 +54,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
     <tr><th>Hero</th><th>Moves</th></tr>
   </thead>
   <tbody>
-    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>17</td></tr>
+    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>18</td></tr>
     <tr><td><img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)**</td><td align='center'>1</td></tr>
   </tbody>
 </table>
@@ -60,6 +63,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
 | Turn | Time | Hero | Event | Issue |
 | :---: | :---: | :--- | :--- | :---: |
+| **19** | 2026-03-28 16:40 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬆️ Moved to The Great Hall | [#20](https://github.com/gxcsoccer/gxcsoccer/issues/20) |
 | **18** | 2026-03-28 16:40 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🏃 Escaped successfully! | [#19](https://github.com/gxcsoccer/gxcsoccer/issues/19) |
 | **17** | 2026-03-28 16:39 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🏃 Failed to escape! Took 12 dmg! | [#18](https://github.com/gxcsoccer/gxcsoccer/issues/18) |
 | **16** | 2026-03-28 16:37 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🐉 Dragon King appears! | [#17](https://github.com/gxcsoccer/gxcsoccer/issues/17) |
