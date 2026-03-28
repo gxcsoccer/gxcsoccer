@@ -4,7 +4,7 @@
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
 
-*A community-driven RPG adventure — 2 heroes, 20 turns played*
+*A community-driven RPG adventure — 2 heroes, 21 turns played*
 
 </div>
 
@@ -14,32 +14,31 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   HP [████████░░] 38/50   Lv.1
   ATK 8  DEF 4  Gold 20  XP 25/50
 
-  📍 Dark Corridor
+  📍 Dusty Library
 
-     |} .... {|
-     |  ....  |
-     |} .... {|
-     |  ....  |
-     |________|
+     |]||||||[|
+     |]||||||[|
+     |]||||||[|
+     |  ~~~~  |
+     |___^^___|
 
-  A narrow corridor with flickering torches. The walls are damp.
+  Towering bookshelves covered in cobwebs. A peaceful aura fills the room.
 
-  ✅ This area has been cleared.
+  💚 A peaceful place to rest. (+20 HP)
 
-  Exits: NORTH | WEST | EAST | SOUTH
+  Exits: WEST | SOUTH
 
   📜 Adventure Log:
-  > ⚡ Dragon King appears!
   > @gxcsoccer Failed to escape! Took 12 dmg!
   > @gxcsoccer Escaped successfully!
   > @gxcsoccer Moved to The Great Hall
   > @gxcsoccer Moved to Dark Corridor
+  > @gxcsoccer Moved to Dusty Library
 ```
 
 | | | |
 |:---:|:---:|:---:|
-| | [⬆️ North](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ANORTH&body=I%20chose%20%2A%2ANORTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
-| [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) |   | [➡️ East](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AEAST&body=I%20chose%20%2A%2AEAST%2A%2A%21%20Let%20the%20adventure%20continue%21) |
+| [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) | [💚 Rest](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AREST&body=I%20chose%20%2A%2AREST%2A%2A%21%20Let%20the%20adventure%20continue%21) |   |
 | | [⬇️ South](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ASOUTH&body=I%20chose%20%2A%2ASOUTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
 
 ---
@@ -54,7 +53,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
     <tr><th>Hero</th><th>Moves</th></tr>
   </thead>
   <tbody>
-    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>19</td></tr>
+    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>20</td></tr>
     <tr><td><img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)**</td><td align='center'>1</td></tr>
   </tbody>
 </table>
@@ -63,6 +62,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
 | Turn | Time | Hero | Event | Issue |
 | :---: | :---: | :--- | :--- | :---: |
+| **21** | 2026-03-28 16:42 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ➡️ Moved to Dusty Library | [#22](https://github.com/gxcsoccer/gxcsoccer/issues/22) |
 | **20** | 2026-03-28 16:40 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬆️ Moved to Dark Corridor | [#21](https://github.com/gxcsoccer/gxcsoccer/issues/21) |
 | **19** | 2026-03-28 16:40 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬆️ Moved to The Great Hall | [#20](https://github.com/gxcsoccer/gxcsoccer/issues/20) |
 | **18** | 2026-03-28 16:40 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🏃 Escaped successfully! | [#19](https://github.com/gxcsoccer/gxcsoccer/issues/19) |
