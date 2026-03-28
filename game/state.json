@@ -7,7 +7,7 @@
     "gold": 20,
     "xp": 25,
     "level": 1,
-    "position": "garden",
+    "position": "fountain",
     "inventory": [],
     "alive": true
   },
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "ATTACK",
-      "user": "gxcsoccer",
-      "message": "Attacked Skeleton Knight for 6 dmg!"
-    },
     {
       "action": "VICTORY",
       "user": "gxcsoccer",
@@ -41,6 +36,11 @@
       "action": "REST",
       "user": "gxcsoccer",
       "message": "Rested and healed 30 HP"
+    },
+    {
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Crystal Fountain"
     }
   ],
   "history": [
@@ -175,11 +175,19 @@
       "user": "gxcsoccer",
       "message": "Rested and healed 30 HP",
       "issue": "15"
+    },
+    {
+      "turn": 15,
+      "time": "2026-03-28 13:37 UTC",
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Crystal Fountain",
+      "issue": "16"
     }
   ],
-  "turn_count": 14,
+  "turn_count": 15,
   "contributors": {
-    "gxcsoccer": 13,
+    "gxcsoccer": 14,
     "GaryXJT": 1
   }
 }
