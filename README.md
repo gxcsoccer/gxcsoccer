@@ -4,14 +4,14 @@
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
 
-*A community-driven RPG adventure — 2 heroes, 16 turns played*
+*A community-driven RPG adventure — 2 heroes, 17 turns played*
 
 </div>
 
 ```
 gxcsoccer@github ~ $ ./dungeon_crawler
 
-  HP [██████████] 50/50   Lv.1
+  HP [████████░░] 38/50   Lv.1
   ATK 8  DEF 4  Gold 20  XP 25/50
 
   📍 Dragon King's Throne
@@ -31,10 +31,10 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
   📜 Adventure Log:
   > @gxcsoccer Rested and healed 30 HP
-  > @gxcsoccer Rested and healed 30 HP
   > @gxcsoccer Moved to Crystal Fountain
   > @gxcsoccer Moved to Dragon King's Throne
   > ⚡ Dragon King appears!
+  > @gxcsoccer Failed to escape! Took 12 dmg!
 ```
 
 | | | |
@@ -53,7 +53,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
     <tr><th>Hero</th><th>Moves</th></tr>
   </thead>
   <tbody>
-    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>15</td></tr>
+    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>16</td></tr>
     <tr><td><img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)**</td><td align='center'>1</td></tr>
   </tbody>
 </table>
@@ -62,6 +62,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
 | Turn | Time | Hero | Event | Issue |
 | :---: | :---: | :--- | :--- | :---: |
+| **17** | 2026-03-28 16:39 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🏃 Failed to escape! Took 12 dmg! | [#18](https://github.com/gxcsoccer/gxcsoccer/issues/18) |
 | **16** | 2026-03-28 16:37 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🐉 Dragon King appears! | [#17](https://github.com/gxcsoccer/gxcsoccer/issues/17) |
 | **16** | 2026-03-28 16:37 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬅️ Moved to Dragon King's Throne | [#17](https://github.com/gxcsoccer/gxcsoccer/issues/17) |
 | **15** | 2026-03-28 13:37 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬇️ Moved to Crystal Fountain | [#16](https://github.com/gxcsoccer/gxcsoccer/issues/16) |
