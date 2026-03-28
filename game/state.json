@@ -1,6 +1,6 @@
 {
   "player": {
-    "hp": 40,
+    "hp": 35,
     "max_hp": 50,
     "atk": 8,
     "def": 4,
@@ -13,7 +13,7 @@
   },
   "combat": {
     "enemy_name": "Skeleton Knight",
-    "enemy_hp": 27,
+    "enemy_hp": 22,
     "enemy_max_hp": 35,
     "enemy_atk": 9,
     "enemy_def": 5,
@@ -25,14 +25,14 @@
   ],
   "log": [
     {
-      "action": "ENCOUNTER",
+      "action": "ENEMY",
       "user": "system",
-      "message": "Skeleton Knight appears!"
+      "message": "Skeleton Knight strikes back for 5 dmg!"
     },
     {
       "action": "ATTACK",
       "user": "gxcsoccer",
-      "message": "Attacked Skeleton Knight for 3 dmg!"
+      "message": "Attacked Skeleton Knight for 5 dmg!"
     },
     {
       "action": "ENEMY",
@@ -110,11 +110,19 @@
       "user": "gxcsoccer",
       "message": "Attacked Skeleton Knight for 5 dmg!",
       "issue": "7"
+    },
+    {
+      "turn": 7,
+      "time": "2026-03-28 06:25 UTC",
+      "action": "ATTACK",
+      "user": "gxcsoccer",
+      "message": "Attacked Skeleton Knight for 5 dmg!",
+      "issue": "8"
     }
   ],
-  "turn_count": 6,
+  "turn_count": 7,
   "contributors": {
-    "gxcsoccer": 5,
+    "gxcsoccer": 6,
     "GaryXJT": 1
   }
 }
