@@ -1,6 +1,6 @@
 {
   "player": {
-    "hp": 50,
+    "hp": 45,
     "max_hp": 50,
     "atk": 8,
     "def": 4,
@@ -13,7 +13,7 @@
   },
   "combat": {
     "enemy_name": "Skeleton Knight",
-    "enemy_hp": 35,
+    "enemy_hp": 32,
     "enemy_max_hp": 35,
     "enemy_atk": 9,
     "enemy_def": 5,
@@ -24,16 +24,6 @@
     "hallway"
   ],
   "log": [
-    {
-      "action": "TRAP",
-      "user": "system",
-      "message": "Poison darts shoot from the walls!"
-    },
-    {
-      "action": "EAST",
-      "user": "gxcsoccer",
-      "message": "Moved to Dusty Library"
-    },
     {
       "action": "REST",
       "user": "gxcsoccer",
@@ -48,6 +38,16 @@
       "action": "ENCOUNTER",
       "user": "system",
       "message": "Skeleton Knight appears!"
+    },
+    {
+      "action": "ATTACK",
+      "user": "gxcsoccer",
+      "message": "Attacked Skeleton Knight for 3 dmg!"
+    },
+    {
+      "action": "ENEMY",
+      "user": "system",
+      "message": "Skeleton Knight strikes back for 5 dmg!"
     }
   ],
   "history": [
@@ -94,11 +94,19 @@
       "user": "GaryXJT",
       "message": "Skeleton Knight appears!",
       "issue": "5"
+    },
+    {
+      "turn": 5,
+      "time": "2026-03-28 06:23 UTC",
+      "action": "ATTACK",
+      "user": "gxcsoccer",
+      "message": "Attacked Skeleton Knight for 3 dmg!",
+      "issue": "6"
     }
   ],
-  "turn_count": 4,
+  "turn_count": 5,
   "contributors": {
-    "gxcsoccer": 3,
+    "gxcsoccer": 4,
     "GaryXJT": 1
   }
 }
