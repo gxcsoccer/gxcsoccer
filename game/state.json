@@ -7,7 +7,7 @@
     "gold": 20,
     "xp": 25,
     "level": 1,
-    "position": "library",
+    "position": "great_hall",
     "inventory": [],
     "alive": true
   },
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "RUN",
-      "user": "gxcsoccer",
-      "message": "Escaped successfully!"
-    },
     {
       "action": "NORTH",
       "user": "gxcsoccer",
@@ -41,6 +36,11 @@
       "action": "REST",
       "user": "gxcsoccer",
       "message": "Rested and healed 20 HP"
+    },
+    {
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to The Great Hall"
     }
   ],
   "history": [
@@ -247,11 +247,19 @@
       "user": "gxcsoccer",
       "message": "Rested and healed 20 HP",
       "issue": "23"
+    },
+    {
+      "turn": 23,
+      "time": "2026-03-28 19:46 UTC",
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to The Great Hall",
+      "issue": "24"
     }
   ],
-  "turn_count": 22,
+  "turn_count": 23,
   "contributors": {
-    "gxcsoccer": 21,
+    "gxcsoccer": 22,
     "GaryXJT": 1
   }
 }
