@@ -7,7 +7,7 @@
     "gold": 20,
     "xp": 25,
     "level": 1,
-    "position": "great_hall",
+    "position": "garden",
     "inventory": [],
     "alive": true
   },
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "ENEMY",
-      "user": "system",
-      "message": "Skeleton Knight strikes back for 6 dmg!"
-    },
     {
       "action": "ATTACK",
       "user": "gxcsoccer",
@@ -41,6 +36,11 @@
       "action": "VICTORY",
       "user": "gxcsoccer",
       "message": "Defeated Skeleton Knight! +25 XP, +20 gold"
+    },
+    {
+      "action": "EAST",
+      "user": "gxcsoccer",
+      "message": "Moved to Underground Garden"
     }
   ],
   "history": [
@@ -151,11 +151,19 @@
       "user": "gxcsoccer",
       "message": "Defeated Skeleton Knight! +25 XP, +20 gold",
       "issue": "12"
+    },
+    {
+      "turn": 12,
+      "time": "2026-03-28 06:30 UTC",
+      "action": "EAST",
+      "user": "gxcsoccer",
+      "message": "Moved to Underground Garden",
+      "issue": "13"
     }
   ],
-  "turn_count": 11,
+  "turn_count": 12,
   "contributors": {
-    "gxcsoccer": 10,
+    "gxcsoccer": 11,
     "GaryXJT": 1
   }
 }
