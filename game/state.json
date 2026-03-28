@@ -1,6 +1,6 @@
 {
   "player": {
-    "hp": 45,
+    "hp": 40,
     "max_hp": 50,
     "atk": 8,
     "def": 4,
@@ -13,7 +13,7 @@
   },
   "combat": {
     "enemy_name": "Skeleton Knight",
-    "enemy_hp": 32,
+    "enemy_hp": 27,
     "enemy_max_hp": 35,
     "enemy_atk": 9,
     "enemy_def": 5,
@@ -25,16 +25,6 @@
   ],
   "log": [
     {
-      "action": "REST",
-      "user": "gxcsoccer",
-      "message": "Rested and healed 20 HP"
-    },
-    {
-      "action": "SOUTH",
-      "user": "GaryXJT",
-      "message": "Moved to The Great Hall"
-    },
-    {
       "action": "ENCOUNTER",
       "user": "system",
       "message": "Skeleton Knight appears!"
@@ -43,6 +33,16 @@
       "action": "ATTACK",
       "user": "gxcsoccer",
       "message": "Attacked Skeleton Knight for 3 dmg!"
+    },
+    {
+      "action": "ENEMY",
+      "user": "system",
+      "message": "Skeleton Knight strikes back for 5 dmg!"
+    },
+    {
+      "action": "ATTACK",
+      "user": "gxcsoccer",
+      "message": "Attacked Skeleton Knight for 5 dmg!"
     },
     {
       "action": "ENEMY",
@@ -102,11 +102,19 @@
       "user": "gxcsoccer",
       "message": "Attacked Skeleton Knight for 3 dmg!",
       "issue": "6"
+    },
+    {
+      "turn": 6,
+      "time": "2026-03-28 06:24 UTC",
+      "action": "ATTACK",
+      "user": "gxcsoccer",
+      "message": "Attacked Skeleton Knight for 5 dmg!",
+      "issue": "7"
     }
   ],
-  "turn_count": 5,
+  "turn_count": 6,
   "contributors": {
-    "gxcsoccer": 4,
+    "gxcsoccer": 5,
     "GaryXJT": 1
   }
 }
