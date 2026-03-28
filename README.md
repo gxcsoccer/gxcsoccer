@@ -4,14 +4,14 @@
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
 
-*A community-driven RPG adventure — 2 heroes, 21 turns played*
+*A community-driven RPG adventure — 2 heroes, 22 turns played*
 
 </div>
 
 ```
 gxcsoccer@github ~ $ ./dungeon_crawler
 
-  HP [████████░░] 38/50   Lv.1
+  HP [██████████] 50/50   Lv.1
   ATK 8  DEF 4  Gold 20  XP 25/50
 
   📍 Dusty Library
@@ -29,11 +29,11 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   Exits: WEST | SOUTH
 
   📜 Adventure Log:
-  > @gxcsoccer Failed to escape! Took 12 dmg!
   > @gxcsoccer Escaped successfully!
   > @gxcsoccer Moved to The Great Hall
   > @gxcsoccer Moved to Dark Corridor
   > @gxcsoccer Moved to Dusty Library
+  > @gxcsoccer Rested and healed 20 HP
 ```
 
 | | | |
@@ -53,7 +53,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
     <tr><th>Hero</th><th>Moves</th></tr>
   </thead>
   <tbody>
-    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>20</td></tr>
+    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>21</td></tr>
     <tr><td><img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)**</td><td align='center'>1</td></tr>
   </tbody>
 </table>
@@ -62,6 +62,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
 | Turn | Time | Hero | Event | Issue |
 | :---: | :---: | :--- | :--- | :---: |
+| **22** | 2026-03-28 16:43 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 💚 Rested and healed 20 HP | [#23](https://github.com/gxcsoccer/gxcsoccer/issues/23) |
 | **21** | 2026-03-28 16:42 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ➡️ Moved to Dusty Library | [#22](https://github.com/gxcsoccer/gxcsoccer/issues/22) |
 | **20** | 2026-03-28 16:40 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬆️ Moved to Dark Corridor | [#21](https://github.com/gxcsoccer/gxcsoccer/issues/21) |
 | **19** | 2026-03-28 16:40 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬆️ Moved to The Great Hall | [#20](https://github.com/gxcsoccer/gxcsoccer/issues/20) |
