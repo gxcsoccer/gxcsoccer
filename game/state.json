@@ -1,6 +1,6 @@
 {
   "player": {
-    "hp": 16,
+    "hp": 46,
     "max_hp": 50,
     "atk": 8,
     "def": 4,
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "ATTACK",
-      "user": "gxcsoccer",
-      "message": "Attacked Skeleton Knight for 6 dmg!"
-    },
     {
       "action": "ENEMY",
       "user": "system",
@@ -41,6 +36,11 @@
       "action": "EAST",
       "user": "gxcsoccer",
       "message": "Moved to Underground Garden"
+    },
+    {
+      "action": "REST",
+      "user": "gxcsoccer",
+      "message": "Rested and healed 30 HP"
     }
   ],
   "history": [
@@ -159,11 +159,19 @@
       "user": "gxcsoccer",
       "message": "Moved to Underground Garden",
       "issue": "13"
+    },
+    {
+      "turn": 13,
+      "time": "2026-03-28 06:30 UTC",
+      "action": "REST",
+      "user": "gxcsoccer",
+      "message": "Rested and healed 30 HP",
+      "issue": "14"
     }
   ],
-  "turn_count": 12,
+  "turn_count": 13,
   "contributors": {
-    "gxcsoccer": 11,
+    "gxcsoccer": 12,
     "GaryXJT": 1
   }
 }
