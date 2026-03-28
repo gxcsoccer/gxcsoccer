@@ -4,7 +4,7 @@
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
 
-*A community-driven RPG adventure — 2 heroes, 23 turns played*
+*A community-driven RPG adventure — 2 heroes, 24 turns played*
 
 </div>
 
@@ -14,33 +14,32 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   HP [██████████] 50/50   Lv.1
   ATK 8  DEF 4  Gold 20  XP 25/50
 
-  📍 The Great Hall
+  📍 Dragon King's Throne
 
-     | ||  || |
-     | ||  || |
-     |  *~~*  |
-     | ||  || |
-     |_||__||_|
+     | /\_/\ |
+     |( o.o ) |
+     | > ~ <  |
+     |/|   |\|
+     |_|___|_|
 
-  A vast stone hall with crumbling pillars and ancient runes on the floor.
+  A massive throne room. The Dragon King awaits, flames dancing in his eyes.
 
-  ✅ This area has been cleared.
+  ⚔️ Dragon King appears!
+  Enemy HP [██████████] 60/60
 
-  Exits: NORTH | WEST | EAST | SOUTH
+  Exits: NORTH | EAST
 
   📜 Adventure Log:
-  > @gxcsoccer Moved to The Great Hall
-  > @gxcsoccer Moved to Dark Corridor
   > @gxcsoccer Moved to Dusty Library
   > @gxcsoccer Rested and healed 20 HP
   > @gxcsoccer Moved to The Great Hall
+  > @gxcsoccer Moved to Dragon King's Throne
+  > ⚡ Dragon King appears!
 ```
 
 | | | |
 |:---:|:---:|:---:|
-| | [⬆️ North](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ANORTH&body=I%20chose%20%2A%2ANORTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
-| [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) |   | [➡️ East](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AEAST&body=I%20chose%20%2A%2AEAST%2A%2A%21%20Let%20the%20adventure%20continue%21) |
-| | [⬇️ South](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ASOUTH&body=I%20chose%20%2A%2ASOUTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
+| [⚔️ Attack](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AATTACK&body=I%20chose%20%2A%2AATTACK%2A%2A%21%20Let%20the%20adventure%20continue%21) | [🛡️ Defend](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ADEFEND&body=I%20chose%20%2A%2ADEFEND%2A%2A%21%20Let%20the%20adventure%20continue%21) | [🏃 Run](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ARUN&body=I%20chose%20%2A%2ARUN%2A%2A%21%20Let%20the%20adventure%20continue%21) |
 
 ---
 
@@ -54,7 +53,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
     <tr><th>Hero</th><th>Moves</th></tr>
   </thead>
   <tbody>
-    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>22</td></tr>
+    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>23</td></tr>
     <tr><td><img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)**</td><td align='center'>1</td></tr>
   </tbody>
 </table>
@@ -63,6 +62,8 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
 | Turn | Time | Hero | Event | Issue |
 | :---: | :---: | :--- | :--- | :---: |
+| **24** | 2026-03-28 19:46 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🐉 Dragon King appears! | [#25](https://github.com/gxcsoccer/gxcsoccer/issues/25) |
+| **24** | 2026-03-28 19:46 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬇️ Moved to Dragon King's Throne | [#25](https://github.com/gxcsoccer/gxcsoccer/issues/25) |
 | **23** | 2026-03-28 19:46 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬇️ Moved to The Great Hall | [#24](https://github.com/gxcsoccer/gxcsoccer/issues/24) |
 | **22** | 2026-03-28 16:43 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 💚 Rested and healed 20 HP | [#23](https://github.com/gxcsoccer/gxcsoccer/issues/23) |
 | **21** | 2026-03-28 16:42 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ➡️ Moved to Dusty Library | [#22](https://github.com/gxcsoccer/gxcsoccer/issues/22) |

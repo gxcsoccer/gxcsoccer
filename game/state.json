@@ -7,26 +7,24 @@
     "gold": 20,
     "xp": 25,
     "level": 1,
-    "position": "great_hall",
+    "position": "throne",
     "inventory": [],
     "alive": true
   },
-  "combat": null,
+  "combat": {
+    "enemy_name": "Dragon King",
+    "enemy_hp": 60,
+    "enemy_max_hp": 60,
+    "enemy_atk": 14,
+    "enemy_def": 8,
+    "xp_reward": 100,
+    "gold_reward": 100
+  },
   "rooms_cleared": [
     "hallway",
     "great_hall"
   ],
   "log": [
-    {
-      "action": "NORTH",
-      "user": "gxcsoccer",
-      "message": "Moved to The Great Hall"
-    },
-    {
-      "action": "NORTH",
-      "user": "gxcsoccer",
-      "message": "Moved to Dark Corridor"
-    },
     {
       "action": "EAST",
       "user": "gxcsoccer",
@@ -41,6 +39,16 @@
       "action": "SOUTH",
       "user": "gxcsoccer",
       "message": "Moved to The Great Hall"
+    },
+    {
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Dragon King's Throne"
+    },
+    {
+      "action": "ENCOUNTER",
+      "user": "system",
+      "message": "Dragon King appears!"
     }
   ],
   "history": [
@@ -255,11 +263,27 @@
       "user": "gxcsoccer",
       "message": "Moved to The Great Hall",
       "issue": "24"
+    },
+    {
+      "turn": 24,
+      "time": "2026-03-28 19:46 UTC",
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Dragon King's Throne",
+      "issue": "25"
+    },
+    {
+      "turn": 24,
+      "time": "2026-03-28 19:46 UTC",
+      "action": "ENCOUNTER",
+      "user": "gxcsoccer",
+      "message": "Dragon King appears!",
+      "issue": "25"
     }
   ],
-  "turn_count": 23,
+  "turn_count": 24,
   "contributors": {
-    "gxcsoccer": 22,
+    "gxcsoccer": 23,
     "GaryXJT": 1
   }
 }
