@@ -7,7 +7,7 @@
     "gold": 20,
     "xp": 25,
     "level": 1,
-    "position": "great_hall",
+    "position": "hallway",
     "inventory": [],
     "alive": true
   },
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "WEST",
-      "user": "gxcsoccer",
-      "message": "Moved to Dragon King's Throne"
-    },
     {
       "action": "ENCOUNTER",
       "user": "system",
@@ -41,6 +36,11 @@
       "action": "NORTH",
       "user": "gxcsoccer",
       "message": "Moved to The Great Hall"
+    },
+    {
+      "action": "NORTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Dark Corridor"
     }
   ],
   "history": [
@@ -223,11 +223,19 @@
       "user": "gxcsoccer",
       "message": "Moved to The Great Hall",
       "issue": "20"
+    },
+    {
+      "turn": 20,
+      "time": "2026-03-28 16:40 UTC",
+      "action": "NORTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Dark Corridor",
+      "issue": "21"
     }
   ],
-  "turn_count": 19,
+  "turn_count": 20,
   "contributors": {
-    "gxcsoccer": 18,
+    "gxcsoccer": 19,
     "GaryXJT": 1
   }
 }

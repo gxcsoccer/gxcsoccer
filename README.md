@@ -4,7 +4,7 @@
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
 
-*A community-driven RPG adventure — 2 heroes, 19 turns played*
+*A community-driven RPG adventure — 2 heroes, 20 turns played*
 
 </div>
 
@@ -14,26 +14,26 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   HP [████████░░] 38/50   Lv.1
   ATK 8  DEF 4  Gold 20  XP 25/50
 
-  📍 The Great Hall
+  📍 Dark Corridor
 
-     | ||  || |
-     | ||  || |
-     |  *~~*  |
-     | ||  || |
-     |_||__||_|
+     |} .... {|
+     |  ....  |
+     |} .... {|
+     |  ....  |
+     |________|
 
-  A vast stone hall with crumbling pillars and ancient runes on the floor.
+  A narrow corridor with flickering torches. The walls are damp.
 
   ✅ This area has been cleared.
 
   Exits: NORTH | WEST | EAST | SOUTH
 
   📜 Adventure Log:
-  > @gxcsoccer Moved to Dragon King's Throne
   > ⚡ Dragon King appears!
   > @gxcsoccer Failed to escape! Took 12 dmg!
   > @gxcsoccer Escaped successfully!
   > @gxcsoccer Moved to The Great Hall
+  > @gxcsoccer Moved to Dark Corridor
 ```
 
 | | | |
@@ -54,7 +54,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
     <tr><th>Hero</th><th>Moves</th></tr>
   </thead>
   <tbody>
-    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>18</td></tr>
+    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>19</td></tr>
     <tr><td><img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)**</td><td align='center'>1</td></tr>
   </tbody>
 </table>
@@ -63,6 +63,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
 | Turn | Time | Hero | Event | Issue |
 | :---: | :---: | :--- | :--- | :---: |
+| **20** | 2026-03-28 16:40 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬆️ Moved to Dark Corridor | [#21](https://github.com/gxcsoccer/gxcsoccer/issues/21) |
 | **19** | 2026-03-28 16:40 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬆️ Moved to The Great Hall | [#20](https://github.com/gxcsoccer/gxcsoccer/issues/20) |
 | **18** | 2026-03-28 16:40 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🏃 Escaped successfully! | [#19](https://github.com/gxcsoccer/gxcsoccer/issues/19) |
 | **17** | 2026-03-28 16:39 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🏃 Failed to escape! Took 12 dmg! | [#18](https://github.com/gxcsoccer/gxcsoccer/issues/18) |
