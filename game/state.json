@@ -7,26 +7,24 @@
     "gold": 20,
     "xp": 25,
     "level": 1,
-    "position": "fountain",
+    "position": "throne",
     "inventory": [],
     "alive": true
   },
-  "combat": null,
+  "combat": {
+    "enemy_name": "Dragon King",
+    "enemy_hp": 60,
+    "enemy_max_hp": 60,
+    "enemy_atk": 14,
+    "enemy_def": 8,
+    "xp_reward": 100,
+    "gold_reward": 100
+  },
   "rooms_cleared": [
     "hallway",
     "great_hall"
   ],
   "log": [
-    {
-      "action": "VICTORY",
-      "user": "gxcsoccer",
-      "message": "Defeated Skeleton Knight! +25 XP, +20 gold"
-    },
-    {
-      "action": "EAST",
-      "user": "gxcsoccer",
-      "message": "Moved to Underground Garden"
-    },
     {
       "action": "REST",
       "user": "gxcsoccer",
@@ -41,6 +39,16 @@
       "action": "SOUTH",
       "user": "gxcsoccer",
       "message": "Moved to Crystal Fountain"
+    },
+    {
+      "action": "WEST",
+      "user": "gxcsoccer",
+      "message": "Moved to Dragon King's Throne"
+    },
+    {
+      "action": "ENCOUNTER",
+      "user": "system",
+      "message": "Dragon King appears!"
     }
   ],
   "history": [
@@ -183,11 +191,27 @@
       "user": "gxcsoccer",
       "message": "Moved to Crystal Fountain",
       "issue": "16"
+    },
+    {
+      "turn": 16,
+      "time": "2026-03-28 16:37 UTC",
+      "action": "WEST",
+      "user": "gxcsoccer",
+      "message": "Moved to Dragon King's Throne",
+      "issue": "17"
+    },
+    {
+      "turn": 16,
+      "time": "2026-03-28 16:37 UTC",
+      "action": "ENCOUNTER",
+      "user": "gxcsoccer",
+      "message": "Dragon King appears!",
+      "issue": "17"
     }
   ],
-  "turn_count": 15,
+  "turn_count": 16,
   "contributors": {
-    "gxcsoccer": 14,
+    "gxcsoccer": 15,
     "GaryXJT": 1
   }
 }
