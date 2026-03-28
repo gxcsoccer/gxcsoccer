@@ -4,14 +4,14 @@
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
 
-*A community-driven RPG adventure — 2 heroes, 9 turns played*
+*A community-driven RPG adventure — 2 heroes, 10 turns played*
 
 </div>
 
 ```
 gxcsoccer@github ~ $ ./dungeon_crawler
 
-  HP [████░░░░░░] 22/50   Lv.1
+  HP [███░░░░░░░] 16/50   Lv.1
   ATK 8  DEF 4  Gold 0  XP 0/20
 
   📍 The Great Hall
@@ -25,14 +25,14 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   A vast stone hall with crumbling pillars and ancient runes on the floor.
 
   ⚔️ Skeleton Knight appears!
-  Enemy HP [███░░░░░░░] 10/35
+  Enemy HP [█░░░░░░░░░] 4/35
 
   Exits: NORTH | WEST | EAST | SOUTH
 
   📜 Adventure Log:
-  > ⚡ Skeleton Knight strikes back for 5 dmg!
-  > @gxcsoccer Attacked Skeleton Knight for 6 dmg!
   > ⚡ Skeleton Knight strikes back for 7 dmg!
+  > @gxcsoccer Attacked Skeleton Knight for 6 dmg!
+  > ⚡ Skeleton Knight strikes back for 6 dmg!
   > @gxcsoccer Attacked Skeleton Knight for 6 dmg!
   > ⚡ Skeleton Knight strikes back for 6 dmg!
 ```
@@ -53,7 +53,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
     <tr><th>Hero</th><th>Moves</th></tr>
   </thead>
   <tbody>
-    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>8</td></tr>
+    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>9</td></tr>
     <tr><td><img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)**</td><td align='center'>1</td></tr>
   </tbody>
 </table>
@@ -62,6 +62,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
 | Turn | Time | Hero | Event | Issue |
 | :---: | :---: | :--- | :--- | :---: |
+| **10** | 2026-03-28 06:28 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚔️ Attacked Skeleton Knight for 6 dmg! | [#11](https://github.com/gxcsoccer/gxcsoccer/issues/11) |
 | **9** | 2026-03-28 06:27 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚔️ Attacked Skeleton Knight for 6 dmg! | [#10](https://github.com/gxcsoccer/gxcsoccer/issues/10) |
 | **8** | 2026-03-28 06:26 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚔️ Attacked Skeleton Knight for 6 dmg! | [#9](https://github.com/gxcsoccer/gxcsoccer/issues/9) |
 | **7** | 2026-03-28 06:25 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚔️ Attacked Skeleton Knight for 5 dmg! | [#8](https://github.com/gxcsoccer/gxcsoccer/issues/8) |
