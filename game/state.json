@@ -4,39 +4,22 @@
     "max_hp": 50,
     "atk": 8,
     "def": 4,
-    "gold": 0,
-    "xp": 0,
+    "gold": 20,
+    "xp": 25,
     "level": 1,
     "position": "great_hall",
     "inventory": [],
     "alive": true
   },
-  "combat": {
-    "enemy_name": "Skeleton Knight",
-    "enemy_hp": 4,
-    "enemy_max_hp": 35,
-    "enemy_atk": 9,
-    "enemy_def": 5,
-    "xp_reward": 25,
-    "gold_reward": 20
-  },
+  "combat": null,
   "rooms_cleared": [
-    "hallway"
+    "hallway",
+    "great_hall"
   ],
   "log": [
     {
       "action": "ENEMY",
       "user": "system",
-      "message": "Skeleton Knight strikes back for 7 dmg!"
-    },
-    {
-      "action": "ATTACK",
-      "user": "gxcsoccer",
-      "message": "Attacked Skeleton Knight for 6 dmg!"
-    },
-    {
-      "action": "ENEMY",
-      "user": "system",
       "message": "Skeleton Knight strikes back for 6 dmg!"
     },
     {
@@ -48,6 +31,16 @@
       "action": "ENEMY",
       "user": "system",
       "message": "Skeleton Knight strikes back for 6 dmg!"
+    },
+    {
+      "action": "ATTACK",
+      "user": "gxcsoccer",
+      "message": "Attacked Skeleton Knight for 6 dmg!"
+    },
+    {
+      "action": "VICTORY",
+      "user": "gxcsoccer",
+      "message": "Defeated Skeleton Knight! +25 XP, +20 gold"
     }
   ],
   "history": [
@@ -142,11 +135,27 @@
       "user": "gxcsoccer",
       "message": "Attacked Skeleton Knight for 6 dmg!",
       "issue": "11"
+    },
+    {
+      "turn": 11,
+      "time": "2026-03-28 06:29 UTC",
+      "action": "ATTACK",
+      "user": "gxcsoccer",
+      "message": "Attacked Skeleton Knight for 6 dmg!",
+      "issue": "12"
+    },
+    {
+      "turn": 11,
+      "time": "2026-03-28 06:29 UTC",
+      "action": "VICTORY",
+      "user": "gxcsoccer",
+      "message": "Defeated Skeleton Knight! +25 XP, +20 gold",
+      "issue": "12"
     }
   ],
-  "turn_count": 10,
+  "turn_count": 11,
   "contributors": {
-    "gxcsoccer": 9,
+    "gxcsoccer": 10,
     "GaryXJT": 1
   }
 }
