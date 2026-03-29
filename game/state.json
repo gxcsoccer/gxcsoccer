@@ -4,7 +4,7 @@
     "max_hp": 50,
     "atk": 8,
     "def": 4,
-    "gold": 20,
+    "gold": 5,
     "xp": 25,
     "level": 1,
     "position": "fountain",
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "RUN",
-      "user": "gxcsoccer",
-      "message": "Escaped successfully!"
-    },
     {
       "action": "EAST",
       "user": "gxcsoccer",
@@ -41,6 +36,11 @@
       "action": "SOUTH",
       "user": "gxcsoccer",
       "message": "Moved to Crystal Fountain"
+    },
+    {
+      "action": "BUY",
+      "user": "gxcsoccer",
+      "message": "Used Health Potion! +25 HP"
     }
   ],
   "history": [
@@ -319,11 +319,19 @@
       "user": "gxcsoccer",
       "message": "Moved to Crystal Fountain",
       "issue": "31"
+    },
+    {
+      "turn": 31,
+      "time": "2026-03-29 19:40 UTC",
+      "action": "BUY",
+      "user": "gxcsoccer",
+      "message": "Used Health Potion! +25 HP",
+      "issue": "32"
     }
   ],
-  "turn_count": 30,
+  "turn_count": 31,
   "contributors": {
-    "gxcsoccer": 29,
+    "gxcsoccer": 30,
     "GaryXJT": 1
   }
 }
