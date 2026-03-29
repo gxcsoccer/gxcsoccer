@@ -7,7 +7,7 @@
     "gold": 20,
     "xp": 25,
     "level": 1,
-    "position": "throne",
+    "position": "fountain",
     "inventory": [],
     "alive": true
   },
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "SOUTH",
-      "user": "gxcsoccer",
-      "message": "Moved to The Great Hall"
-    },
     {
       "action": "SOUTH",
       "user": "gxcsoccer",
@@ -41,6 +36,11 @@
       "action": "RUN",
       "user": "gxcsoccer",
       "message": "Escaped successfully!"
+    },
+    {
+      "action": "EAST",
+      "user": "gxcsoccer",
+      "message": "Moved to Crystal Fountain"
     }
   ],
   "history": [
@@ -287,11 +287,19 @@
       "user": "gxcsoccer",
       "message": "Escaped successfully!",
       "issue": "27"
+    },
+    {
+      "turn": 27,
+      "time": "2026-03-29 07:13 UTC",
+      "action": "EAST",
+      "user": "gxcsoccer",
+      "message": "Moved to Crystal Fountain",
+      "issue": "28"
     }
   ],
-  "turn_count": 26,
+  "turn_count": 27,
   "contributors": {
-    "gxcsoccer": 25,
+    "gxcsoccer": 26,
     "GaryXJT": 1
   }
 }
