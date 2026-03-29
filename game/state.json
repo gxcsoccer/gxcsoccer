@@ -1,6 +1,6 @@
 {
   "player": {
-    "hp": 50,
+    "hp": 40,
     "max_hp": 50,
     "atk": 8,
     "def": 4,
@@ -13,7 +13,7 @@
   },
   "combat": {
     "enemy_name": "Dragon King",
-    "enemy_hp": 60,
+    "enemy_hp": 56,
     "enemy_max_hp": 60,
     "enemy_atk": 14,
     "enemy_def": 8,
@@ -25,16 +25,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "REST",
-      "user": "gxcsoccer",
-      "message": "Rested and healed 30 HP"
-    },
-    {
-      "action": "SOUTH",
-      "user": "gxcsoccer",
-      "message": "Moved to Crystal Fountain"
-    },
     {
       "action": "BUY",
       "user": "gxcsoccer",
@@ -49,6 +39,16 @@
       "action": "ENCOUNTER",
       "user": "system",
       "message": "Dragon King appears!"
+    },
+    {
+      "action": "ATTACK",
+      "user": "gxcsoccer",
+      "message": "Attacked Dragon King for 4 dmg!"
+    },
+    {
+      "action": "ENEMY",
+      "user": "system",
+      "message": "Dragon King strikes back for 10 dmg!"
     }
   ],
   "history": [
@@ -351,11 +351,19 @@
       "user": "gxcsoccer",
       "message": "Dragon King appears!",
       "issue": "33"
+    },
+    {
+      "turn": 33,
+      "time": "2026-03-29 19:42 UTC",
+      "action": "ATTACK",
+      "user": "gxcsoccer",
+      "message": "Attacked Dragon King for 4 dmg!",
+      "issue": "34"
     }
   ],
-  "turn_count": 32,
+  "turn_count": 33,
   "contributors": {
-    "gxcsoccer": 31,
+    "gxcsoccer": 32,
     "GaryXJT": 1
   }
 }
