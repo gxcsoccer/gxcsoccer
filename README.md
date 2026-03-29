@@ -4,7 +4,7 @@
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
 
-*A community-driven RPG adventure — 2 heroes, 35 turns played*
+*A community-driven RPG adventure — 2 heroes, 36 turns played*
 
 </div>
 
@@ -14,30 +14,33 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   HP [██████░░░░] 29/50   Lv.1
   ATK 8  DEF 4  Gold 5  XP 25/50
 
-  📍 Dragon King's Throne
+  📍 The Great Hall
 
-     | /\_/\ |
-     |( o.o ) |
-     | > ~ <  |
-     |/|   |\|
-     |_|___|_|
+     | ||  || |
+     | ||  || |
+     |  *~~*  |
+     | ||  || |
+     |_||__||_|
 
-  A massive throne room. The Dragon King awaits, flames dancing in his eyes.
+  A vast stone hall with crumbling pillars and ancient runes on the floor.
 
-  Exits: NORTH | EAST
+  ✅ This area has been cleared.
+
+  Exits: NORTH | WEST | EAST | SOUTH
 
   📜 Adventure Log:
-  > @gxcsoccer Attacked Dragon King for 4 dmg!
   > ⚡ Dragon King strikes back for 10 dmg!
   > @gxcsoccer Attacked Dragon King for 4 dmg!
   > ⚡ Dragon King strikes back for 11 dmg!
   > @gxcsoccer Escaped successfully!
+  > @gxcsoccer Moved to The Great Hall
 ```
 
 | | | |
 |:---:|:---:|:---:|
 | | [⬆️ North](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ANORTH&body=I%20chose%20%2A%2ANORTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
-|   |   | [➡️ East](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AEAST&body=I%20chose%20%2A%2AEAST%2A%2A%21%20Let%20the%20adventure%20continue%21) |
+| [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) |   | [➡️ East](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AEAST&body=I%20chose%20%2A%2AEAST%2A%2A%21%20Let%20the%20adventure%20continue%21) |
+| | [⬇️ South](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ASOUTH&body=I%20chose%20%2A%2ASOUTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
 
 ---
 
@@ -51,7 +54,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
     <tr><th>Hero</th><th>Moves</th></tr>
   </thead>
   <tbody>
-    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>34</td></tr>
+    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>35</td></tr>
     <tr><td><img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)**</td><td align='center'>1</td></tr>
   </tbody>
 </table>
@@ -60,6 +63,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
 | Turn | Time | Hero | Event | Issue |
 | :---: | :---: | :--- | :--- | :---: |
+| **36** | 2026-03-29 19:43 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬆️ Moved to The Great Hall | [#37](https://github.com/gxcsoccer/gxcsoccer/issues/37) |
 | **35** | 2026-03-29 19:42 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🏃 Escaped successfully! | [#36](https://github.com/gxcsoccer/gxcsoccer/issues/36) |
 | **34** | 2026-03-29 19:42 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚔️ Attacked Dragon King for 4 dmg! | [#35](https://github.com/gxcsoccer/gxcsoccer/issues/35) |
 | **33** | 2026-03-29 19:42 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚔️ Attacked Dragon King for 4 dmg! | [#34](https://github.com/gxcsoccer/gxcsoccer/issues/34) |
@@ -89,7 +93,6 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 | **12** | 2026-03-28 06:30 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ➡️ Moved to Underground Garden | [#13](https://github.com/gxcsoccer/gxcsoccer/issues/13) |
 | **11** | 2026-03-28 06:29 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🏆 Defeated Skeleton Knight! +25 XP, +20 gold | [#12](https://github.com/gxcsoccer/gxcsoccer/issues/12) |
 | **11** | 2026-03-28 06:29 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚔️ Attacked Skeleton Knight for 6 dmg! | [#12](https://github.com/gxcsoccer/gxcsoccer/issues/12) |
-| **10** | 2026-03-28 06:28 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚔️ Attacked Skeleton Knight for 6 dmg! | [#11](https://github.com/gxcsoccer/gxcsoccer/issues/11) |
 
 </details>
 
