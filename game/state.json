@@ -1,6 +1,6 @@
 {
   "player": {
-    "hp": 38,
+    "hp": 50,
     "max_hp": 50,
     "atk": 8,
     "def": 4,
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "ENCOUNTER",
-      "user": "system",
-      "message": "Dragon King appears!"
-    },
     {
       "action": "RUN",
       "user": "gxcsoccer",
@@ -41,6 +36,11 @@
       "action": "NORTH",
       "user": "gxcsoccer",
       "message": "Moved to Underground Garden"
+    },
+    {
+      "action": "REST",
+      "user": "gxcsoccer",
+      "message": "Rested and healed 30 HP"
     }
   ],
   "history": [
@@ -303,11 +303,19 @@
       "user": "gxcsoccer",
       "message": "Moved to Underground Garden",
       "issue": "29"
+    },
+    {
+      "turn": 29,
+      "time": "2026-03-29 07:18 UTC",
+      "action": "REST",
+      "user": "gxcsoccer",
+      "message": "Rested and healed 30 HP",
+      "issue": "30"
     }
   ],
-  "turn_count": 28,
+  "turn_count": 29,
   "contributors": {
-    "gxcsoccer": 27,
+    "gxcsoccer": 28,
     "GaryXJT": 1
   }
 }
