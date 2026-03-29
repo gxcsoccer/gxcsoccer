@@ -4,7 +4,7 @@
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
 
-*A community-driven RPG adventure — 2 heroes, 29 turns played*
+*A community-driven RPG adventure — 2 heroes, 30 turns played*
 
 </div>
 
@@ -14,32 +14,36 @@ gxcsoccer@github ~ $ ./dungeon_crawler
   HP [██████████] 50/50   Lv.1
   ATK 8  DEF 4  Gold 20  XP 25/50
 
-  📍 Underground Garden
+  📍 Crystal Fountain
 
-     | *  * * |
-     |* \|/ * |
-     | *.|.   |
-     |  /|\ * |
-     |_*___*__|
+     |  (~~)  |
+     | (~~~~) |
+     |  |  |  |
+     | /|  |\ |
+     |/_|__|_\|
 
-  Bioluminescent plants glow softly. A crystal fountain bubbles gently.
+  A magical fountain with healing waters. A merchant sits nearby.
 
-  💚 A peaceful place to rest. (+30 HP)
+  🛒 Shop:
+    [1] Health Potion - 15 gold (+25 HP)
+    [2] Whetstone - 25 gold (+2 ATK)
+    [3] Chainmail - 30 gold (+3 DEF)
 
-  Exits: WEST | SOUTH
+  Exits: NORTH | WEST
 
   📜 Adventure Log:
-  > @gxcsoccer Failed to escape! Took 12 dmg!
   > @gxcsoccer Escaped successfully!
   > @gxcsoccer Moved to Crystal Fountain
   > @gxcsoccer Moved to Underground Garden
   > @gxcsoccer Rested and healed 30 HP
+  > @gxcsoccer Moved to Crystal Fountain
 ```
 
 | | | |
 |:---:|:---:|:---:|
-| [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) | [💚 Rest](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AREST&body=I%20chose%20%2A%2AREST%2A%2A%21%20Let%20the%20adventure%20continue%21) |   |
-| | [⬇️ South](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ASOUTH&body=I%20chose%20%2A%2ASOUTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
+| | [⬆️ North](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ANORTH&body=I%20chose%20%2A%2ANORTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
+| [⬅️ West](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AWEST&body=I%20chose%20%2A%2AWEST%2A%2A%21%20Let%20the%20adventure%20continue%21) | [🛒 Shop](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ABUY1&body=I%20chose%20%2A%2ABUY1%2A%2A%21%20Let%20the%20adventure%20continue%21) |   |
+| [💰 Health Potion](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ABUY1&body=I%20chose%20%2A%2ABUY1%2A%2A%21%20Let%20the%20adventure%20continue%21) | [💰 Whetstone](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ABUY2&body=I%20chose%20%2A%2ABUY2%2A%2A%21%20Let%20the%20adventure%20continue%21) | [💰 Chainmail](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ABUY3&body=I%20chose%20%2A%2ABUY3%2A%2A%21%20Let%20the%20adventure%20continue%21) |
 
 ---
 
@@ -53,7 +57,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
     <tr><th>Hero</th><th>Moves</th></tr>
   </thead>
   <tbody>
-    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>28</td></tr>
+    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>29</td></tr>
     <tr><td><img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)**</td><td align='center'>1</td></tr>
   </tbody>
 </table>
@@ -62,6 +66,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
 | Turn | Time | Hero | Event | Issue |
 | :---: | :---: | :--- | :--- | :---: |
+| **30** | 2026-03-29 19:39 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬇️ Moved to Crystal Fountain | [#31](https://github.com/gxcsoccer/gxcsoccer/issues/31) |
 | **29** | 2026-03-29 07:18 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 💚 Rested and healed 30 HP | [#30](https://github.com/gxcsoccer/gxcsoccer/issues/30) |
 | **28** | 2026-03-29 07:14 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬆️ Moved to Underground Garden | [#29](https://github.com/gxcsoccer/gxcsoccer/issues/29) |
 | **27** | 2026-03-29 07:13 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ➡️ Moved to Crystal Fountain | [#28](https://github.com/gxcsoccer/gxcsoccer/issues/28) |
@@ -91,7 +96,6 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 | **6** | 2026-03-28 06:24 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚔️ Attacked Skeleton Knight for 5 dmg! | [#7](https://github.com/gxcsoccer/gxcsoccer/issues/7) |
 | **5** | 2026-03-28 06:23 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚔️ Attacked Skeleton Knight for 3 dmg! | [#6](https://github.com/gxcsoccer/gxcsoccer/issues/6) |
 | **4** | 2026-03-26 04:08 UTC | <img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)** | 🐉 Skeleton Knight appears! | [#5](https://github.com/gxcsoccer/gxcsoccer/issues/5) |
-| **4** | 2026-03-26 04:08 UTC | <img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)** | ⬇️ Moved to The Great Hall | [#5](https://github.com/gxcsoccer/gxcsoccer/issues/5) |
 
 </details>
 

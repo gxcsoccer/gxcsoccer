@@ -7,7 +7,7 @@
     "gold": 20,
     "xp": 25,
     "level": 1,
-    "position": "garden",
+    "position": "fountain",
     "inventory": [],
     "alive": true
   },
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "RUN",
-      "user": "gxcsoccer",
-      "message": "Failed to escape! Took 12 dmg!"
-    },
     {
       "action": "RUN",
       "user": "gxcsoccer",
@@ -41,6 +36,11 @@
       "action": "REST",
       "user": "gxcsoccer",
       "message": "Rested and healed 30 HP"
+    },
+    {
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Crystal Fountain"
     }
   ],
   "history": [
@@ -311,11 +311,19 @@
       "user": "gxcsoccer",
       "message": "Rested and healed 30 HP",
       "issue": "30"
+    },
+    {
+      "turn": 30,
+      "time": "2026-03-29 19:39 UTC",
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Crystal Fountain",
+      "issue": "31"
     }
   ],
-  "turn_count": 29,
+  "turn_count": 30,
   "contributors": {
-    "gxcsoccer": 28,
+    "gxcsoccer": 29,
     "GaryXJT": 1
   }
 }
