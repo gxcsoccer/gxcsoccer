@@ -7,26 +7,24 @@
     "gold": 5,
     "xp": 25,
     "level": 1,
-    "position": "fountain",
+    "position": "throne",
     "inventory": [],
     "alive": true
   },
-  "combat": null,
+  "combat": {
+    "enemy_name": "Dragon King",
+    "enemy_hp": 60,
+    "enemy_max_hp": 60,
+    "enemy_atk": 14,
+    "enemy_def": 8,
+    "xp_reward": 100,
+    "gold_reward": 100
+  },
   "rooms_cleared": [
     "hallway",
     "great_hall"
   ],
   "log": [
-    {
-      "action": "EAST",
-      "user": "gxcsoccer",
-      "message": "Moved to Crystal Fountain"
-    },
-    {
-      "action": "NORTH",
-      "user": "gxcsoccer",
-      "message": "Moved to Underground Garden"
-    },
     {
       "action": "REST",
       "user": "gxcsoccer",
@@ -41,6 +39,16 @@
       "action": "BUY",
       "user": "gxcsoccer",
       "message": "Used Health Potion! +25 HP"
+    },
+    {
+      "action": "WEST",
+      "user": "gxcsoccer",
+      "message": "Moved to Dragon King's Throne"
+    },
+    {
+      "action": "ENCOUNTER",
+      "user": "system",
+      "message": "Dragon King appears!"
     }
   ],
   "history": [
@@ -327,11 +335,27 @@
       "user": "gxcsoccer",
       "message": "Used Health Potion! +25 HP",
       "issue": "32"
+    },
+    {
+      "turn": 32,
+      "time": "2026-03-29 19:41 UTC",
+      "action": "WEST",
+      "user": "gxcsoccer",
+      "message": "Moved to Dragon King's Throne",
+      "issue": "33"
+    },
+    {
+      "turn": 32,
+      "time": "2026-03-29 19:41 UTC",
+      "action": "ENCOUNTER",
+      "user": "gxcsoccer",
+      "message": "Dragon King appears!",
+      "issue": "33"
     }
   ],
-  "turn_count": 31,
+  "turn_count": 32,
   "contributors": {
-    "gxcsoccer": 30,
+    "gxcsoccer": 31,
     "GaryXJT": 1
   }
 }
