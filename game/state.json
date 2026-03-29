@@ -7,7 +7,7 @@
     "gold": 20,
     "xp": 25,
     "level": 1,
-    "position": "fountain",
+    "position": "garden",
     "inventory": [],
     "alive": true
   },
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "SOUTH",
-      "user": "gxcsoccer",
-      "message": "Moved to Dragon King's Throne"
-    },
     {
       "action": "ENCOUNTER",
       "user": "system",
@@ -41,6 +36,11 @@
       "action": "EAST",
       "user": "gxcsoccer",
       "message": "Moved to Crystal Fountain"
+    },
+    {
+      "action": "NORTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Underground Garden"
     }
   ],
   "history": [
@@ -295,11 +295,19 @@
       "user": "gxcsoccer",
       "message": "Moved to Crystal Fountain",
       "issue": "28"
+    },
+    {
+      "turn": 28,
+      "time": "2026-03-29 07:14 UTC",
+      "action": "NORTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Underground Garden",
+      "issue": "29"
     }
   ],
-  "turn_count": 27,
+  "turn_count": 28,
   "contributors": {
-    "gxcsoccer": 26,
+    "gxcsoccer": 27,
     "GaryXJT": 1
   }
 }
