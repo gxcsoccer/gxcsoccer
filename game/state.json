@@ -11,25 +11,12 @@
     "inventory": [],
     "alive": true
   },
-  "combat": {
-    "enemy_name": "Dragon King",
-    "enemy_hp": 52,
-    "enemy_max_hp": 60,
-    "enemy_atk": 14,
-    "enemy_def": 8,
-    "xp_reward": 100,
-    "gold_reward": 100
-  },
+  "combat": null,
   "rooms_cleared": [
     "hallway",
     "great_hall"
   ],
   "log": [
-    {
-      "action": "ENCOUNTER",
-      "user": "system",
-      "message": "Dragon King appears!"
-    },
     {
       "action": "ATTACK",
       "user": "gxcsoccer",
@@ -49,6 +36,11 @@
       "action": "ENEMY",
       "user": "system",
       "message": "Dragon King strikes back for 11 dmg!"
+    },
+    {
+      "action": "RUN",
+      "user": "gxcsoccer",
+      "message": "Escaped successfully!"
     }
   ],
   "history": [
@@ -367,11 +359,19 @@
       "user": "gxcsoccer",
       "message": "Attacked Dragon King for 4 dmg!",
       "issue": "35"
+    },
+    {
+      "turn": 35,
+      "time": "2026-03-29 19:42 UTC",
+      "action": "RUN",
+      "user": "gxcsoccer",
+      "message": "Escaped successfully!",
+      "issue": "36"
     }
   ],
-  "turn_count": 34,
+  "turn_count": 35,
   "contributors": {
-    "gxcsoccer": 33,
+    "gxcsoccer": 34,
     "GaryXJT": 1
   }
 }
