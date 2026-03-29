@@ -4,7 +4,7 @@
 
 **⚔️ TERMINAL DUNGEON CRAWLER ⚔️**
 
-*A community-driven RPG adventure — 2 heroes, 25 turns played*
+*A community-driven RPG adventure — 2 heroes, 26 turns played*
 
 </div>
 
@@ -24,22 +24,20 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
   A massive throne room. The Dragon King awaits, flames dancing in his eyes.
 
-  ⚔️ Dragon King appears!
-  Enemy HP [██████████] 60/60
-
   Exits: NORTH | EAST
 
   📜 Adventure Log:
-  > @gxcsoccer Rested and healed 20 HP
   > @gxcsoccer Moved to The Great Hall
   > @gxcsoccer Moved to Dragon King's Throne
   > ⚡ Dragon King appears!
   > @gxcsoccer Failed to escape! Took 12 dmg!
+  > @gxcsoccer Escaped successfully!
 ```
 
 | | | |
 |:---:|:---:|:---:|
-| [⚔️ Attack](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AATTACK&body=I%20chose%20%2A%2AATTACK%2A%2A%21%20Let%20the%20adventure%20continue%21) | [🛡️ Defend](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ADEFEND&body=I%20chose%20%2A%2ADEFEND%2A%2A%21%20Let%20the%20adventure%20continue%21) | [🏃 Run](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ARUN&body=I%20chose%20%2A%2ARUN%2A%2A%21%20Let%20the%20adventure%20continue%21) |
+| | [⬆️ North](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3ANORTH&body=I%20chose%20%2A%2ANORTH%2A%2A%21%20Let%20the%20adventure%20continue%21) | |
+|   |   | [➡️ East](https://github.com/gxcsoccer/gxcsoccer/issues/new?title=RPG%3AEAST&body=I%20chose%20%2A%2AEAST%2A%2A%21%20Let%20the%20adventure%20continue%21) |
 
 ---
 
@@ -53,7 +51,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
     <tr><th>Hero</th><th>Moves</th></tr>
   </thead>
   <tbody>
-    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>24</td></tr>
+    <tr><td><img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)**</td><td align='center'>25</td></tr>
     <tr><td><img src="https://github.com/GaryXJT.png?size=16" alt="" width="16"> **[GaryXJT](https://github.com/GaryXJT)**</td><td align='center'>1</td></tr>
   </tbody>
 </table>
@@ -62,6 +60,7 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 
 | Turn | Time | Hero | Event | Issue |
 | :---: | :---: | :--- | :--- | :---: |
+| **26** | 2026-03-29 07:13 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🏃 Escaped successfully! | [#27](https://github.com/gxcsoccer/gxcsoccer/issues/27) |
 | **25** | 2026-03-29 07:13 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🏃 Failed to escape! Took 12 dmg! | [#26](https://github.com/gxcsoccer/gxcsoccer/issues/26) |
 | **24** | 2026-03-28 19:46 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 🐉 Dragon King appears! | [#25](https://github.com/gxcsoccer/gxcsoccer/issues/25) |
 | **24** | 2026-03-28 19:46 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬇️ Moved to Dragon King's Throne | [#25](https://github.com/gxcsoccer/gxcsoccer/issues/25) |
@@ -91,7 +90,6 @@ gxcsoccer@github ~ $ ./dungeon_crawler
 | **3** | 2026-03-15 07:31 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | 💚 Rested and healed 20 HP |  |
 | **2** | 2026-03-15 07:31 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ➡️ Moved to Dusty Library |  |
 | **1** | 2026-03-15 07:30 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⚡ Poison darts shoot from the walls! |  |
-| **1** | 2026-03-15 07:30 UTC | <img src="https://github.com/gxcsoccer.png?size=16" alt="" width="16"> **[gxcsoccer](https://github.com/gxcsoccer)** | ⬇️ Moved to Dark Corridor |  |
 
 </details>
 

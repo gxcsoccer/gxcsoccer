@@ -11,25 +11,12 @@
     "inventory": [],
     "alive": true
   },
-  "combat": {
-    "enemy_name": "Dragon King",
-    "enemy_hp": 60,
-    "enemy_max_hp": 60,
-    "enemy_atk": 14,
-    "enemy_def": 8,
-    "xp_reward": 100,
-    "gold_reward": 100
-  },
+  "combat": null,
   "rooms_cleared": [
     "hallway",
     "great_hall"
   ],
   "log": [
-    {
-      "action": "REST",
-      "user": "gxcsoccer",
-      "message": "Rested and healed 20 HP"
-    },
     {
       "action": "SOUTH",
       "user": "gxcsoccer",
@@ -49,6 +36,11 @@
       "action": "RUN",
       "user": "gxcsoccer",
       "message": "Failed to escape! Took 12 dmg!"
+    },
+    {
+      "action": "RUN",
+      "user": "gxcsoccer",
+      "message": "Escaped successfully!"
     }
   ],
   "history": [
@@ -287,11 +279,19 @@
       "user": "gxcsoccer",
       "message": "Failed to escape! Took 12 dmg!",
       "issue": "26"
+    },
+    {
+      "turn": 26,
+      "time": "2026-03-29 07:13 UTC",
+      "action": "RUN",
+      "user": "gxcsoccer",
+      "message": "Escaped successfully!",
+      "issue": "27"
     }
   ],
-  "turn_count": 25,
+  "turn_count": 26,
   "contributors": {
-    "gxcsoccer": 24,
+    "gxcsoccer": 25,
     "GaryXJT": 1
   }
 }
