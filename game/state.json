@@ -7,7 +7,7 @@
     "gold": 5,
     "xp": 25,
     "level": 1,
-    "position": "entrance",
+    "position": "hallway",
     "inventory": [],
     "alive": true
   },
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "ENEMY",
-      "user": "system",
-      "message": "Dragon King strikes back for 11 dmg!"
-    },
     {
       "action": "RUN",
       "user": "gxcsoccer",
@@ -41,6 +36,11 @@
       "action": "NORTH",
       "user": "gxcsoccer",
       "message": "Moved to Dungeon Entrance"
+    },
+    {
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Dark Corridor"
     }
   ],
   "history": [
@@ -391,11 +391,19 @@
       "user": "gxcsoccer",
       "message": "Moved to Dungeon Entrance",
       "issue": "39"
+    },
+    {
+      "turn": 39,
+      "time": "2026-04-07 18:20 UTC",
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Dark Corridor",
+      "issue": "40"
     }
   ],
-  "turn_count": 38,
+  "turn_count": 39,
   "contributors": {
-    "gxcsoccer": 37,
+    "gxcsoccer": 38,
     "GaryXJT": 1
   }
 }
