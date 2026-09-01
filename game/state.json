@@ -7,7 +7,7 @@
     "gold": 5,
     "xp": 25,
     "level": 1,
-    "position": "entrance",
+    "position": "hallway",
     "inventory": [],
     "alive": true
   },
@@ -17,11 +17,6 @@
     "great_hall"
   ],
   "log": [
-    {
-      "action": "NORTH",
-      "user": "gxcsoccer",
-      "message": "Moved to The Great Hall"
-    },
     {
       "action": "NORTH",
       "user": "gxcsoccer",
@@ -41,6 +36,11 @@
       "action": "NORTH",
       "user": "nzh233",
       "message": "Moved to Dungeon Entrance"
+    },
+    {
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Dark Corridor"
     }
   ],
   "history": [
@@ -407,11 +407,19 @@
       "user": "nzh233",
       "message": "Moved to Dungeon Entrance",
       "issue": "41"
+    },
+    {
+      "turn": 41,
+      "time": "2026-09-01 20:21 UTC",
+      "action": "SOUTH",
+      "user": "gxcsoccer",
+      "message": "Moved to Dark Corridor",
+      "issue": "42"
     }
   ],
-  "turn_count": 40,
+  "turn_count": 41,
   "contributors": {
-    "gxcsoccer": 38,
+    "gxcsoccer": 39,
     "GaryXJT": 1,
     "nzh233": 1
   }
